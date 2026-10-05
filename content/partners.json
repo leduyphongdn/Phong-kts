@@ -1,5 +1,63 @@
 [
   {
+    "id": "clients",
+    "title": {
+      "vi": "Chủ đầu tư & đối tác dự án",
+      "en": "Clients & project partners",
+      "ja": "施主・プロジェクトパートナー"
+    },
+    "items": [
+      {
+        "name": "Les Sens",
+        "logo": "/img/partners/les-sens.webp"
+      },
+      {
+        "name": "Hòa Bình Minh",
+        "logo": "/img/partners/hoa-binh-minh.webp"
+      },
+      {
+        "name": "Pacific Corporation",
+        "logo": "/img/partners/pacific.webp"
+      },
+      {
+        "name": "Ecopark",
+        "logo": "/img/partners/ecopark.webp"
+      },
+      {
+        "name": "Vinaconex",
+        "logo": "/img/partners/vinaconex.webp"
+      },
+      {
+        "name": "Mikazuki",
+        "logo": "/img/partners/mikazuki.webp"
+      },
+      {
+        "name": "Sigma Engineering",
+        "logo": "/img/partners/sigma.webp"
+      },
+      {
+        "name": "UPI Đà Nẵng",
+        "logo": "/img/partners/upi-da-nang.webp"
+      },
+      {
+        "name": "Nitori",
+        "logo": "/img/partners/nitori.webp"
+      },
+      {
+        "name": "Cosmos Housing",
+        "logo": "/img/partners/cosmos-housing.webp"
+      },
+      {
+        "name": "Tân Á Đại Thành",
+        "logo": "/img/partners/tan-a-dai-thanh.webp"
+      },
+      {
+        "name": "Danang Landmark",
+        "logo": "/img/partners/danang-landmark.webp"
+      }
+    ]
+  },
+  {
     "id": "suppliers",
     "title": {
       "vi": "Nhà cung cấp vật liệu & thiết bị",
