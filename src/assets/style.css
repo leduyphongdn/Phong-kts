@@ -22,8 +22,8 @@ h1 em,h2 em{font-style:italic;color:var(--accent)}
 .site-header::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(11,11,12,.78);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);opacity:0;transition:opacity .4s}
 .site-header.solid::before{opacity:1}
 .site-header.solid{padding-block:14px}
-.brand{font:500 .95rem var(--sans);letter-spacing:.32em}
-.brand span{font-weight:300;opacity:.7}
+.brand{display:flex;align-items:center;gap:14px;font:500 .95rem var(--sans);letter-spacing:.32em}
+.brand-text em{font-style:normal;font-weight:300;opacity:.7}
 .nav{display:flex;align-items:center;gap:clamp(18px,3vw,40px);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
 .nav a{position:relative;padding:10px 0;min-height:44px;display:inline-flex;align-items:center}
 .nav a:not(.lang)::after{content:"";position:absolute;left:0;right:0;bottom:6px;height:1px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)}
@@ -277,3 +277,10 @@ html[lang=ja] h1,html[lang=ja] h2,html[lang=ja] h3{letter-spacing:0;line-height:
 .hero h1 em{display:inline-block;max-width:100%}
 .hero .kicker{font-size:.78rem;margin-bottom:22px}
 .hero-inner{max-width:1300px}
+
+/* logo Raymond bên trái PHONG ARCHITECT */
+.brand-logo{display:block;flex:none}
+.brand-logo img{display:block;height:30px;width:auto}
+.brand-sep{width:1px;height:24px;background:var(--line);flex:none}
+.foot-logo{height:30px;width:auto;margin-bottom:14px;display:block}
+@media(max-width:640px){.brand{gap:10px;font-size:.78rem;letter-spacing:.22em}.brand-logo img{height:28px}.brand-sep{height:20px}}
