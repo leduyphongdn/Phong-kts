@@ -31,7 +31,11 @@
       const sd = navigator.connection && navigator.connection.saveData;
       if (innerWidth >= 1600 && !sd) { const src = hv.querySelector("source"); src.src = "/video/hero-4k.mp4"; hv.load(); }
       hv.addEventListener("playing", () => hv.classList.add("ready"), { once: true });
-      hv.play?.().catch(() => {});
+      const go = () => { if (hv.paused) hv.play?.().catch(() => {}); };
+      go();
+      hv.addEventListener("canplay", go);
+      d.addEventListener("visibilitychange", () => { if (!d.hidden) go(); });
+      ["pointerdown", "keydown", "scroll", "touchstart"].forEach((ev) => addEventListener(ev, go, { once: true, passive: true }));
     }
   }
 
