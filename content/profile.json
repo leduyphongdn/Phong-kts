@@ -1,0 +1,25 @@
+{
+  "name": "LE DUY PHONG",
+  "kana": "レー ジー フォン",
+  "role1": "Design Manager",
+  "role1jp": "設計部長",
+  "role2": "Chief of Da Nang Office",
+  "role2jp": "ダナン事務所長",
+  "lead": "Kiến trúc sư theo đuổi tinh thần thiết kế Nhật Bản: tối giản, tôn trọng thiên nhiên và chăm chút từng chi tiết.",
+  "about1": "Tôi hiện là Trưởng phòng Thiết kế kiêm Trưởng văn phòng Đà Nẵng tại Raymond Architectural Design Office. Công việc của tôi gắn với các dự án khu nghỉ dưỡng, onsen, kiến trúc, quy hoạch, nội thất và cảnh quan tại Việt Nam.",
+  "about2": "Với tôi, một công trình tốt bắt đầu từ việc lắng nghe địa hình, khí hậu và con người sẽ sống trong đó. Tôi đồng hành cùng dự án từ ý tưởng ban đầu đến khi công trình hoàn thiện.",
+  "f1": "Design Manager",
+  "f2": "Đà Nẵng",
+  "f3": "Onsen · Resort · Kiến trúc",
+  "email": "phong-architect@raymondsekkei.com",
+  "phone": "+84 905 500 140",
+  "address": "Tầng 11, 218 Bạch Đằng, Phước Ninh, Hải Châu, Đà Nẵng",
+  "hero": {
+    "w": 1013,
+    "h": 606
+  },
+  "portrait": {
+    "w": 1000,
+    "h": 1000
+  }
+}

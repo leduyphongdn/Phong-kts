@@ -13,7 +13,7 @@ npm run dev        # build + mở http://localhost:3000
 |---|---|
 | Tên, SĐT, email, tên miền, văn bản hai ngôn ngữ | `content/site.json` |
 | Dự án (tên, địa điểm, năm, chủ đầu tư, quy mô, mô tả VI/EN, ảnh bìa, nổi bật) | `content/projects.json` |
-| Ảnh slide trang chủ | `heroImages` trong `content/site.json` |
+| Hồ sơ cá nhân (chức danh, giới thiệu) | `content/profile.json` (tiếng Việt) và `content/site.json` (hai ngôn ngữ) |
 | Giao diện | `src/assets/style.css`, `src/assets/app.js` |
 
 Trường để trống (`location`, `year`, ...) sẽ tự ẩn trên trang dự án. Ví dụ điền một dự án:
@@ -21,8 +21,10 @@ Trường để trống (`location`, `year`, ...) sẽ tự ẩn trên trang d�
 "location": "Phú Quốc", "year": "2025", "summary": { "vi": "Mô tả...", "en": "Description..." }
 ```
 
-## Thêm / thay ảnh dự án
-Đặt ảnh vào thư mục dự án nguồn, rồi `npm run images` (nén WebP vào `public/img/projects/`, giữ nguyên chữ đã sửa trong `projects.json`). Đổi `SOURCE_DIR` nếu thư mục nguồn khác.
+## Ảnh và video
+Toàn bộ ảnh/video lấy từ artifact "Phong Kiến Trúc" (9 dự án Onsen, ảnh bìa, chân dung, video hero) bằng `scripts/import-artifact.mjs`.
+- Ảnh hero: `public/img/hero.webp`, chân dung: `public/img/portrait.webp`, video: `public/video/hero.mp4`
+- Ảnh dự án: `public/img/projects/<id>/NN.webp` (+ `NN-s.webp` bản nhỏ); thêm ảnh mới thì khai báo trong `content/projects.json`.
 
 ## Deploy lên Hostinger (shared hosting)
 Site là HTML tĩnh nên chạy trên shared hosting thường.

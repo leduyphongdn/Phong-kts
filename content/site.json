@@ -2,28 +2,44 @@
   "brand": "PHONG ARCHITECT",
   "siteUrl": "https://phongarchitect.com",
   "person": "Lê Duy Phong",
-  "phone": "0905 500 140",
+  "phone": "+84 905 500 140",
   "phoneHref": "+84905500140",
   "email": "phong-architect@raymondsekkei.com",
-  "heroImages": [
-    { "project": "mikazuki", "image": 0 },
-    { "project": "sala-quy-nhon-beach-hotel", "image": 0 },
-    { "project": "yoko-onsen-quang-hanh", "image": 0 },
-    { "project": "landmark-da-nang", "image": 0 },
-    { "project": "shizen-8000", "image": 0 },
-    { "project": "mokpo", "image": 0 }
-  ],
   "categories": {
-    "architecture": { "vi": "Kiến trúc", "en": "Architecture" },
-    "interior": { "vi": "Nội thất & Cảnh quan", "en": "Interior & Landscape" },
-    "onsen": { "vi": "Onsen", "en": "Onsen" },
-    "planning": { "vi": "Quy hoạch", "en": "Planning" }
+    "architecture": {
+      "vi": "Kiến trúc",
+      "en": "Architecture"
+    },
+    "interior": {
+      "vi": "Nội thất & Cảnh quan",
+      "en": "Interior & Landscape"
+    },
+    "onsen": {
+      "vi": "Onsen",
+      "en": "Onsen"
+    },
+    "planning": {
+      "vi": "Quy hoạch",
+      "en": "Planning"
+    }
   },
   "categoryBlurb": {
-    "architecture": { "vi": "Tòa nhà, khách sạn và công trình công cộng.", "en": "Towers, hotels and public buildings." },
-    "interior": { "vi": "Không gian bên trong và cảnh quan ngoài trời.", "en": "Interiors and the landscapes around them." },
-    "onsen": { "vi": "Nghỉ dưỡng suối khoáng theo tinh thần Nhật Bản.", "en": "Hot-spring retreats in the Japanese spirit." },
-    "planning": { "vi": "Quy hoạch khu du lịch và đô thị.", "en": "Resort and urban masterplans." }
+    "architecture": {
+      "vi": "Tòa nhà, khách sạn và công trình công cộng.",
+      "en": "Towers, hotels and public buildings."
+    },
+    "interior": {
+      "vi": "Không gian bên trong và cảnh quan ngoài trời.",
+      "en": "Interiors and the landscapes around them."
+    },
+    "onsen": {
+      "vi": "Nghỉ dưỡng suối khoáng theo tinh thần Nhật Bản.",
+      "en": "Hot-spring retreats in the Japanese spirit."
+    },
+    "planning": {
+      "vi": "Quy hoạch khu du lịch và đô thị.",
+      "en": "Resort and urban masterplans."
+    }
   },
   "i18n": {
     "vi": {
@@ -46,13 +62,9 @@
       "projectsCount": "dự án",
       "aboutKicker": "Giới thiệu",
       "aboutTitle": "KTS Lê Duy Phong",
-      "aboutRole": "Trưởng phòng thiết kế – Raymond Architectural Design Office",
-      "aboutP1": "Tôi là kiến trúc sư, hiện là Trưởng phòng thiết kế tại Công ty TNHH Kiến trúc Raymond Việt Nam, dẫn dắt nhóm khoảng 10 người thiết kế resort, khách sạn, villa và căn hộ.",
-      "aboutP2": "Tôi đặc biệt quan tâm đến các dự án Onsen kiểu Nhật: nơi vật liệu, nước, ánh sáng và sự riêng tư được sắp đặt thành một trải nghiệm trọn vẹn.",
-      "aboutP3": "Ngoài kiến trúc, tôi quản lý August House, quán cà phê phong cách Địa Trung Hải hiện đại bên bờ biển Cửa Đại, Hội An.",
-      "statProjects": "dự án trong hồ sơ",
-      "statDisciplines": "lĩnh vực thiết kế",
-      "statTeam": "thành viên nhóm thiết kế",
+      "aboutRole": "Trưởng phòng Thiết kế · Trưởng văn phòng Đà Nẵng – Raymond Architectural Design Office",
+      "aboutP1": "Tôi hiện là Trưởng phòng Thiết kế kiêm Trưởng văn phòng Đà Nẵng tại Raymond Architectural Design Office. Công việc của tôi gắn với các dự án khu nghỉ dưỡng, onsen, kiến trúc, quy hoạch, nội thất và cảnh quan tại Việt Nam.",
+      "aboutP2": "Với tôi, một công trình tốt bắt đầu từ việc lắng nghe địa hình, khí hậu và con người sẽ sống trong đó. Tôi đồng hành cùng dự án từ ý tưởng ban đầu đến khi công trình hoàn thiện.",
       "contactKicker": "Liên hệ",
       "contactTitle": "Cùng trao đổi về dự án của bạn.",
       "contactText": "Gửi vài dòng về vị trí, quy mô và mong muốn của bạn. Tôi sẽ phản hồi sớm.",
@@ -82,7 +94,15 @@
       "switchLabel": "Switch to English",
       "rights": "Bảo lưu mọi quyền.",
       "metaHome": "Phong Architect – Kiến trúc sư Lê Duy Phong. Kiến trúc nghỉ dưỡng, Onsen, nội thất, cảnh quan và quy hoạch.",
-      "metaProjects": "Tuyển tập dự án kiến trúc, nội thất, Onsen và quy hoạch của KTS Lê Duy Phong."
+      "metaProjects": "Tuyển tập dự án kiến trúc, nội thất, Onsen và quy hoạch của KTS Lê Duy Phong.",
+      "lead": "Kiến trúc sư theo đuổi tinh thần thiết kế Nhật Bản: tối giản, tôn trọng thiên nhiên và chăm chút từng chi tiết.",
+      "factRole": "Chức danh",
+      "factBase": "Văn phòng",
+      "factFocus": "Chuyên môn",
+      "f1": "Design Manager",
+      "f2": "Đà Nẵng",
+      "f3": "Onsen · Resort · Kiến trúc",
+      "address": "Địa chỉ"
     },
     "en": {
       "lang": "en",
@@ -104,13 +124,9 @@
       "projectsCount": "projects",
       "aboutKicker": "About",
       "aboutTitle": "Architect Lê Duy Phong",
-      "aboutRole": "Head of Design – Raymond Architectural Design Office",
-      "aboutP1": "I am an architect and Head of Design at Raymond Vietnam Architecture Co., Ltd., leading a team of around 10 designing resorts, hotels, villas and apartments.",
-      "aboutP2": "I am especially drawn to Japanese-style Onsen projects, where material, water, light and privacy are composed into one complete experience.",
-      "aboutP3": "Beyond architecture, I run August House, a modern Mediterranean-style café by Cua Dai beach in Hoi An.",
-      "statProjects": "projects in the portfolio",
-      "statDisciplines": "design disciplines",
-      "statTeam": "design team members",
+      "aboutRole": "Head of Design · Chief of Da Nang Office – Raymond Architectural Design Office",
+      "aboutP1": "I am currently Head of Design and Chief of the Da Nang Office at Raymond Architectural Design Office. My work spans resorts, onsen, architecture, planning, interior and landscape projects across Vietnam.",
+      "aboutP2": "To me, a good building begins by listening to the terrain, the climate and the people who will live in it. I stay with a project from the first idea until the building is complete.",
       "contactKicker": "Contact",
       "contactTitle": "Let’s talk about your project.",
       "contactText": "Send a few lines about the site, scale and what you have in mind. I’ll reply soon.",
@@ -140,7 +156,22 @@
       "switchLabel": "Chuyển sang tiếng Việt",
       "rights": "All rights reserved.",
       "metaHome": "Phong Architect – Architect Lê Duy Phong. Resort architecture, Onsen, interior, landscape and masterplanning.",
-      "metaProjects": "Selected architecture, interior, Onsen and planning projects by architect Lê Duy Phong."
+      "metaProjects": "Selected architecture, interior, Onsen and planning projects by architect Lê Duy Phong.",
+      "lead": "An architect pursuing the spirit of Japanese design: minimal, respectful of nature, and attentive to every detail.",
+      "factRole": "Position",
+      "factBase": "Office",
+      "factFocus": "Focus",
+      "f1": "Design Manager",
+      "f2": "Da Nang",
+      "f3": "Onsen · Resort · Architecture",
+      "address": "Address"
     }
-  }
+  },
+  "address": "Tầng 11, 218 Bạch Đằng, Phước Ninh, Hải Châu, Đà Nẵng",
+  "roles": {
+    "vi": "Trưởng phòng Thiết kế · Trưởng văn phòng Đà Nẵng – Raymond Architectural Design Office",
+    "en": "Head of Design · Chief of Da Nang Office – Raymond Architectural Design Office"
+  },
+  "kana": "レー ジー フォン",
+  "roleJp": "設計部長 · ダナン事務所長"
 }

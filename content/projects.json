@@ -4,2232 +4,434 @@
     "slug": "mikazuki",
     "category": "onsen",
     "featured": true,
-    "title": "Mikazuki",
-    "location": "",
+    "title": "Mikazuki Spa & Hotel Resort",
+    "location": "Đà Nẵng",
     "year": "",
     "client": "",
     "area": "",
     "role": "",
     "summary": {
-      "vi": "",
-      "en": ""
+      "vi": "Khách sạn 22 tầng với 294 phòng tiêu chuẩn và suites, diện tích phòng từ 70 đến 400 m². Dự án mang văn hóa và dịch vụ chuẩn Nhật Bản đến du khách: vườn Nhật tại tầng 4 với Ngũ Trùng Tháp, chuông thiêng, đền Nikko Toshogu; hồ bơi vô cực tầng 22 nhìn ra vịnh Đà Nẵng; và công viên nước trong nhà Mikazuki 365 lớn nhất miền Trung.",
+      "en": "A 22-storey hotel with 294 standard rooms and suites, from 70 to 400 m². The project brings Japanese culture and service to guests: a Japanese garden on level 4 with a five-storey pagoda, a sacred bell and a Nikko Toshogu shrine; a 22nd-floor infinity pool facing Da Nang Bay; and Mikazuki 365, the largest indoor water park in central Vietnam."
     },
     "cover": 0,
     "images": [
       {
         "src": "01.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "02.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "03.webp",
-        "w": 2000,
-        "h": 1334
-      },
-      {
-        "src": "04.webp",
-        "w": 2000,
-        "h": 2000
-      },
-      {
-        "src": "05.webp",
-        "w": 2000,
-        "h": 2000
-      },
-      {
-        "src": "06.webp",
-        "w": 2000,
-        "h": 982
-      },
-      {
-        "src": "07.webp",
-        "w": 1024,
-        "h": 576
-      },
-      {
-        "src": "08.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "09.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "10.webp",
-        "w": 2000,
-        "h": 2000
-      },
-      {
-        "src": "11.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "12.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "13.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "14.webp",
-        "w": 1920,
-        "h": 1080
-      }
-    ]
-  },
-  {
-    "id": "sala-quy-nhon-beach-hotel",
-    "slug": "sala-quy-nhon-beach-hotel",
-    "category": "architecture",
-    "featured": true,
-    "title": "Sala Quy Nhơn Beach Hotel",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1479,
-        "h": 942
-      },
-      {
-        "src": "02.webp",
-        "w": 975,
-        "h": 639
-      },
-      {
-        "src": "03.webp",
-        "w": 655,
-        "h": 756
-      },
-      {
-        "src": "04.webp",
-        "w": 1107,
-        "h": 748
-      },
-      {
-        "src": "05.webp",
-        "w": 1130,
-        "h": 719
-      },
-      {
-        "src": "06.webp",
-        "w": 640,
+        "w": 1000,
         "h": 749
-      }
-    ]
-  },
-  {
-    "id": "yoko-onsen-quang-hanh",
-    "slug": "yoko-onsen-quang-hanh",
-    "category": "interior",
-    "featured": true,
-    "title": "Yoko Onsen Quảng Hanh",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1200,
-        "h": 800
       },
       {
         "src": "02.webp",
-        "w": 1500,
-        "h": 1125
+        "w": 1300,
+        "h": 1221
       },
       {
         "src": "03.webp",
-        "w": 500,
-        "h": 333
+        "w": 758,
+        "h": 471
       },
       {
         "src": "04.webp",
-        "w": 1830,
-        "h": 895
+        "w": 959,
+        "h": 1300
       },
       {
         "src": "05.webp",
-        "w": 2000,
-        "h": 1333
-      },
-      {
-        "src": "06.webp",
-        "w": 1200,
-        "h": 800
-      },
-      {
-        "src": "07.webp",
-        "w": 1024,
-        "h": 682
-      },
-      {
-        "src": "08.webp",
-        "w": 1050,
-        "h": 700
-      },
-      {
-        "src": "09.webp",
-        "w": 1200,
-        "h": 800
-      },
-      {
-        "src": "10.webp",
-        "w": 1500,
-        "h": 1103
-      },
-      {
-        "src": "11.webp",
-        "w": 1600,
-        "h": 1067
-      },
-      {
-        "src": "12.webp",
-        "w": 2000,
-        "h": 1334
-      }
-    ]
-  },
-  {
-    "id": "landmark-da-nang",
-    "slug": "landmark-da-nang",
-    "category": "architecture",
-    "featured": true,
-    "title": "Landmark Đà Nẵng",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 900,
-        "h": 562
-      },
-      {
-        "src": "02.webp",
-        "w": 640,
-        "h": 896
-      },
-      {
-        "src": "03.webp",
-        "w": 1280,
-        "h": 720
-      },
-      {
-        "src": "04.webp",
-        "w": 960,
-        "h": 1534
-      },
-      {
-        "src": "05.webp",
-        "w": 676,
-        "h": 380
-      }
-    ]
-  },
-  {
-    "id": "shizen-8000",
-    "slug": "shizen-8000",
-    "category": "architecture",
-    "featured": true,
-    "title": "Shizen 8000",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 992,
-        "h": 697
-      },
-      {
-        "src": "02.webp",
-        "w": 1145,
-        "h": 643
-      },
-      {
-        "src": "03.webp",
-        "w": 1145,
-        "h": 697
-      },
-      {
-        "src": "04.webp",
-        "w": 1076,
-        "h": 752
-      },
-      {
-        "src": "05.webp",
-        "w": 1156,
-        "h": 705
-      },
-      {
-        "src": "06.webp",
-        "w": 1250,
-        "h": 664
-      }
-    ]
-  },
-  {
-    "id": "mokpo",
-    "slug": "mokpo",
-    "category": "planning",
-    "featured": true,
-    "title": "Mokpo",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 990,
-        "h": 532
-      },
-      {
-        "src": "02.webp",
-        "w": 1096,
-        "h": 1441
-      },
-      {
-        "src": "03.webp",
-        "w": 605,
-        "h": 339
-      }
-    ]
-  },
-  {
-    "id": "dai-lai",
-    "slug": "dai-lai",
-    "category": "interior",
-    "featured": true,
-    "title": "Đại Lải",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 2000,
-        "h": 1127
-      },
-      {
-        "src": "02.webp",
-        "w": 2000,
-        "h": 1184
-      },
-      {
-        "src": "03.webp",
-        "w": 691,
-        "h": 414
-      },
-      {
-        "src": "04.webp",
-        "w": 1048,
-        "h": 682
-      }
-    ]
-  },
-  {
-    "id": "vinaconex-diamond",
-    "slug": "vinaconex-diamond",
-    "category": "architecture",
-    "featured": true,
-    "title": "Vinaconex Diamond",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "02.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "03.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "04.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "05.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "06.webp",
-        "w": 800,
-        "h": 770
-      },
-      {
-        "src": "07.webp",
-        "w": 655,
-        "h": 782
-      },
-      {
-        "src": "08.webp",
-        "w": 411,
-        "h": 823
-      }
-    ]
-  },
-  {
-    "id": "lessen-onsen-hotel-phu-quoc",
-    "slug": "lessen-onsen-hotel-phu-quoc",
-    "category": "interior",
-    "featured": true,
-    "title": "Lessen Onsen Hotel – Phú Quốc",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 669,
-        "h": 418
-      },
-      {
-        "src": "02.webp",
-        "w": 1144,
-        "h": 895
-      },
-      {
-        "src": "03.webp",
-        "w": 672,
-        "h": 464
-      },
-      {
-        "src": "04.webp",
-        "w": 1007,
-        "h": 546
-      },
-      {
-        "src": "05.webp",
-        "w": 338,
-        "h": 546
-      },
-      {
-        "src": "06.webp",
-        "w": 725,
-        "h": 385
-      },
-      {
-        "src": "07.webp",
-        "w": 619,
-        "h": 385
-      }
-    ]
-  },
-  {
-    "id": "viettel",
-    "slug": "viettel",
-    "category": "architecture",
-    "featured": true,
-    "title": "Viettel",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 776,
-        "h": 818
-      },
-      {
-        "src": "02.webp",
-        "w": 611,
-        "h": 692
-      },
-      {
-        "src": "03.webp",
-        "w": 742,
-        "h": 1185
-      }
-    ]
-  },
-  {
-    "id": "thospital",
-    "slug": "thospital",
-    "category": "architecture",
-    "featured": true,
-    "title": "T'Hospital",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 917,
-        "h": 964
-      },
-      {
-        "src": "02.webp",
-        "w": 1262,
-        "h": 666
-      },
-      {
-        "src": "03.webp",
-        "w": 915,
-        "h": 440
-      }
-    ]
-  },
-  {
-    "id": "sala-apartment",
-    "slug": "sala-apartment",
-    "category": "architecture",
-    "featured": true,
-    "title": "Sala Apartment",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1054,
-        "h": 595
-      },
-      {
-        "src": "02.webp",
-        "w": 1091,
-        "h": 1417
-      },
-      {
-        "src": "03.webp",
-        "w": 669,
-        "h": 433
-      },
-      {
-        "src": "04.webp",
-        "w": 618,
-        "h": 802
-      },
-      {
-        "src": "05.webp",
-        "w": 1074,
-        "h": 694
-      },
-      {
-        "src": "06.webp",
-        "w": 1145,
-        "h": 634
-      }
-    ]
-  },
-  {
-    "id": "center-point-building",
-    "slug": "center-point-building",
-    "category": "architecture",
-    "featured": false,
-    "title": "Center Point Building",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1410,
-        "h": 870
-      },
-      {
-        "src": "02.webp",
-        "w": 814,
-        "h": 1157
-      }
-    ]
-  },
-  {
-    "id": "dinco-building",
-    "slug": "dinco-building",
-    "category": "architecture",
-    "featured": false,
-    "title": "Dinco Building",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1178,
-        "h": 728
-      },
-      {
-        "src": "02.webp",
-        "w": 1099,
-        "h": 659
-      },
-      {
-        "src": "03.webp",
-        "w": 1099,
-        "h": 682
-      }
-    ]
-  },
-  {
-    "id": "dong-tac-fishing-port",
-    "slug": "dong-tac-fishing-port",
-    "category": "architecture",
-    "featured": false,
-    "title": "Đồng Tác Fishing Port",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1086,
-        "h": 1535
-      },
-      {
-        "src": "02.webp",
-        "w": 1043,
-        "h": 646
-      }
-    ]
-  },
-  {
-    "id": "foreign-trade-uni",
-    "slug": "foreign-trade-uni",
-    "category": "architecture",
-    "featured": false,
-    "title": "Foreign Trade University",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 886,
-        "h": 498
-      },
-      {
-        "src": "02.webp",
-        "w": 886,
-        "h": 498
-      },
-      {
-        "src": "03.webp",
-        "w": 886,
-        "h": 498
-      },
-      {
-        "src": "04.webp",
-        "w": 1250,
-        "h": 328
-      },
-      {
-        "src": "05.webp",
-        "w": 698,
-        "h": 366
-      }
-    ]
-  },
-  {
-    "id": "hai-an-resort",
-    "slug": "hai-an-resort",
-    "category": "architecture",
-    "featured": false,
-    "title": "Hải An Resort",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1080,
-        "h": 645
-      },
-      {
-        "src": "02.webp",
-        "w": 1074,
-        "h": 623
-      },
-      {
-        "src": "03.webp",
-        "w": 1049,
-        "h": 651
-      },
-      {
-        "src": "04.webp",
-        "w": 1071,
-        "h": 645
-      },
-      {
-        "src": "05.webp",
-        "w": 1150,
-        "h": 661
-      }
-    ]
-  },
-  {
-    "id": "lavida-building",
-    "slug": "lavida-building",
-    "category": "architecture",
-    "featured": false,
-    "title": "Lavida Building",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1043,
-        "h": 480
-      },
-      {
-        "src": "02.webp",
-        "w": 1093,
-        "h": 671
-      },
-      {
-        "src": "03.webp",
-        "w": 1093,
-        "h": 677
-      }
-    ]
-  },
-  {
-    "id": "mai-market",
-    "slug": "mai-market",
-    "category": "architecture",
-    "featured": false,
-    "title": "Mai Market",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1350,
-        "h": 773
-      },
-      {
-        "src": "02.webp",
-        "w": 834,
-        "h": 1116
-      },
-      {
-        "src": "03.webp",
-        "w": 1238,
-        "h": 710
-      },
-      {
-        "src": "04.webp",
-        "w": 607,
-        "h": 800
-      }
-    ]
-  },
-  {
-    "id": "nam-trung-yen-onsen-spa",
-    "slug": "nam-trung-yen-onsen-spa",
-    "category": "architecture",
-    "featured": false,
-    "title": "Nam Trung Yên Onsen – Spa",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1318,
-        "h": 1534
-      }
-    ]
-  },
-  {
-    "id": "nhan-tong",
-    "slug": "nhan-tong",
-    "category": "architecture",
-    "featured": false,
-    "title": "Nhân Tông",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1197,
-        "h": 740
-      },
-      {
-        "src": "02.webp",
-        "w": 1016,
-        "h": 643
-      }
-    ]
-  },
-  {
-    "id": "sala-landmark-competition",
-    "slug": "sala-landmark-competition",
-    "category": "architecture",
-    "featured": false,
-    "title": "Sala Landmark Competition",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 899,
-        "h": 846
-      },
-      {
-        "src": "02.webp",
-        "w": 1219,
-        "h": 1414
-      }
-    ]
-  },
-  {
-    "id": "van-lang",
-    "slug": "van-lang",
-    "category": "architecture",
-    "featured": false,
-    "title": "Văn Lang",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1114,
-        "h": 589
-      },
-      {
-        "src": "02.webp",
-        "w": 1032,
-        "h": 643
-      },
-      {
-        "src": "03.webp",
-        "w": 1032,
-        "h": 589
-      }
-    ]
-  },
-  {
-    "id": "cultural-park-of-buddhas-stories",
-    "slug": "cultural-park-of-buddhas-stories",
-    "category": "interior",
-    "featured": false,
-    "title": "Cultural Park of Buddha’s Stories",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 847,
-        "h": 735
-      },
-      {
-        "src": "02.webp",
-        "w": 549,
-        "h": 535
-      },
-      {
-        "src": "03.webp",
-        "w": 1201,
+        "w": 1300,
         "h": 668
       },
       {
-        "src": "04.webp",
-        "w": 534,
-        "h": 749
-      }
-    ]
-  },
-  {
-    "id": "hoa-binh-minh",
-    "slug": "hoa-binh-minh",
-    "category": "interior",
-    "featured": false,
-    "title": "Hòa Bình Minh",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "02.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "03.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "04.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "05.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
         "src": "06.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "07.webp",
-        "w": 2000,
-        "h": 1125
-      },
-      {
-        "src": "08.webp",
-        "w": 1594,
-        "h": 546
-      },
-      {
-        "src": "09.webp",
-        "w": 1594,
-        "h": 897
-      },
-      {
-        "src": "10.webp",
-        "w": 1594,
-        "h": 897
-      },
-      {
-        "src": "11.webp",
-        "w": 1594,
-        "h": 904
-      },
-      {
-        "src": "12.webp",
-        "w": 1888,
-        "h": 1042
-      },
-      {
-        "src": "13.webp",
-        "w": 1888,
-        "h": 1042
-      },
-      {
-        "src": "14.webp",
-        "w": 1888,
-        "h": 1042
-      },
-      {
-        "src": "15.webp",
-        "w": 1592,
-        "h": 901
-      },
-      {
-        "src": "16.webp",
-        "w": 1591,
-        "h": 896
+        "w": 830,
+        "h": 448
       }
     ]
   },
   {
-    "id": "kim-boi",
-    "slug": "kim-boi",
-    "category": "interior",
-    "featured": false,
-    "title": "Kim Bôi",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 2000,
-        "h": 2359
-      },
-      {
-        "src": "02.webp",
-        "w": 2000,
-        "h": 1240
-      },
-      {
-        "src": "03.webp",
-        "w": 2000,
-        "h": 1667
-      },
-      {
-        "src": "04.webp",
-        "w": 2000,
-        "h": 1238
-      },
-      {
-        "src": "05.webp",
-        "w": 2000,
-        "h": 1238
-      },
-      {
-        "src": "06.webp",
-        "w": 2000,
-        "h": 1238
-      },
-      {
-        "src": "07.webp",
-        "w": 2000,
-        "h": 1240
-      },
-      {
-        "src": "08.webp",
-        "w": 2000,
-        "h": 1238
-      },
-      {
-        "src": "09.webp",
-        "w": 2000,
-        "h": 1426
-      },
-      {
-        "src": "10.webp",
-        "w": 2000,
-        "h": 1333
-      },
-      {
-        "src": "11.webp",
-        "w": 2000,
-        "h": 1238
-      },
-      {
-        "src": "12.webp",
-        "w": 2000,
-        "h": 1238
-      },
-      {
-        "src": "13.webp",
-        "w": 2000,
-        "h": 1421
-      },
-      {
-        "src": "14.webp",
-        "w": 2000,
-        "h": 1238
-      },
-      {
-        "src": "15.webp",
-        "w": 2000,
-        "h": 1238
-      },
-      {
-        "src": "16.webp",
-        "w": 2000,
-        "h": 2000
-      },
-      {
-        "src": "17.webp",
-        "w": 2000,
-        "h": 2000
-      },
-      {
-        "src": "18.webp",
-        "w": 2000,
-        "h": 2000
-      }
-    ]
-  },
-  {
-    "id": "my-an",
-    "slug": "my-an",
-    "category": "interior",
-    "featured": false,
-    "title": "Mỹ An",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1024,
-        "h": 683
-      },
-      {
-        "src": "02.webp",
-        "w": 1024,
-        "h": 767
-      },
-      {
-        "src": "03.webp",
-        "w": 1201,
-        "h": 900
-      },
-      {
-        "src": "04.webp",
-        "w": 1280,
-        "h": 853
-      },
-      {
-        "src": "05.webp",
-        "w": 1024,
-        "h": 683
-      },
-      {
-        "src": "06.webp",
-        "w": 1200,
-        "h": 800
-      },
-      {
-        "src": "07.webp",
-        "w": 1200,
-        "h": 899
-      },
-      {
-        "src": "08.webp",
-        "w": 1200,
-        "h": 807
-      },
-      {
-        "src": "09.webp",
-        "w": 1200,
-        "h": 807
-      },
-      {
-        "src": "10.webp",
-        "w": 1200,
-        "h": 807
-      }
-    ]
-  },
-  {
-    "id": "shizen",
-    "slug": "shizen",
-    "category": "interior",
-    "featured": false,
-    "title": "Shizen",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1083,
-        "h": 465
-      },
-      {
-        "src": "02.webp",
-        "w": 933,
-        "h": 621
-      },
-      {
-        "src": "03.webp",
-        "w": 1053,
-        "h": 696
-      },
-      {
-        "src": "04.webp",
-        "w": 1114,
-        "h": 676
-      },
-      {
-        "src": "05.webp",
-        "w": 857,
-        "h": 701
-      }
-    ]
-  },
-  {
-    "id": "amerys-phu-quoc",
-    "slug": "amerys-phu-quoc",
+    "id": "kawara",
+    "slug": "kawara",
     "category": "onsen",
-    "featured": false,
-    "title": "Amérys Phú Quốc",
-    "location": "",
+    "featured": true,
+    "title": "Kawara Mỹ An Onsen Resort & Spa",
+    "location": "Đà Nẵng",
     "year": "",
     "client": "",
     "area": "",
     "role": "",
     "summary": {
-      "vi": "",
-      "en": ""
+      "vi": "Khu nghỉ dưỡng phức hợp tiêu chuẩn quốc tế gồm khách sạn, biệt thự, khu ngâm tắm onsen, spa, ẩm thực và giải trí. Onsen vận hành theo mô hình Nhật Bản, dùng nguồn khoáng nóng Mỹ An giàu lưu huỳnh. Các biệt thự theo lối kiến trúc “sân vườn thiền định” với bể ngâm onsen riêng.",
+      "en": "An international-standard resort complex of a hotel, villas, onsen bathing, spa, dining and entertainment. The onsen runs on the Japanese model, using sulphur-rich hot mineral water from My An. The villas follow a ‘meditative courtyard’ idea, each with a private onsen bath."
     },
     "cover": 0,
     "images": [
       {
         "src": "01.webp",
-        "w": 1824,
-        "h": 2336
-      },
-      {
-        "src": "02.webp",
-        "w": 1728,
-        "h": 2336
-      },
-      {
-        "src": "03.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "04.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "05.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "06.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "07.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "08.webp",
-        "w": 1920,
-        "h": 1080
-      },
-      {
-        "src": "09.webp",
-        "w": 1540,
-        "h": 1920
-      }
-    ]
-  },
-  {
-    "id": "cultural-park-of-buddhas-stories-2",
-    "slug": "cultural-park-of-buddhas-stories-2",
-    "category": "onsen",
-    "featured": false,
-    "title": "Cultural Park of Buddha’s Stories",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 949,
-        "h": 823
-      },
-      {
-        "src": "02.webp",
-        "w": 637,
-        "h": 611
-      },
-      {
-        "src": "03.webp",
-        "w": 637,
-        "h": 353
-      },
-      {
-        "src": "04.webp",
-        "w": 665,
-        "h": 929
-      }
-    ]
-  },
-  {
-    "id": "ecopark-sixsens-dong-nai",
-    "slug": "ecopark-sixsens-dong-nai",
-    "category": "onsen",
-    "featured": false,
-    "title": "Ecopark Six Senses – Đồng Nai",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 906,
-        "h": 680
-      },
-      {
-        "src": "02.webp",
-        "w": 1010,
-        "h": 1135
-      },
-      {
-        "src": "03.webp",
-        "w": 1141,
-        "h": 897
-      },
-      {
-        "src": "04.webp",
-        "w": 670,
-        "h": 466
-      },
-      {
-        "src": "05.webp",
-        "w": 670,
-        "h": 415
-      },
-      {
-        "src": "06.webp",
-        "w": 669,
-        "h": 418
-      }
-    ]
-  },
-  {
-    "id": "lac-thuy-station",
-    "slug": "lac-thuy-station",
-    "category": "onsen",
-    "featured": false,
-    "title": "Lạc Thủy Station",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1012,
-        "h": 674
-      },
-      {
-        "src": "02.webp",
-        "w": 832,
-        "h": 555
-      },
-      {
-        "src": "03.webp",
-        "w": 675,
-        "h": 674
-      },
-      {
-        "src": "04.webp",
-        "w": 484,
-        "h": 483
-      },
-      {
-        "src": "05.webp",
-        "w": 1370,
-        "h": 771
-      },
-      {
-        "src": "06.webp",
-        "w": 748,
-        "h": 479
-      }
-    ]
-  },
-  {
-    "id": "mori-osen",
-    "slug": "mori-osen",
-    "category": "onsen",
-    "featured": false,
-    "title": "Mori Onsen",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1200,
-        "h": 800
-      },
-      {
-        "src": "02.webp",
-        "w": 1200,
-        "h": 800
-      },
-      {
-        "src": "03.webp",
-        "w": 2000,
-        "h": 1499
-      },
-      {
-        "src": "04.webp",
-        "w": 1430,
-        "h": 955
-      },
-      {
-        "src": "05.webp",
-        "w": 1429,
-        "h": 953
-      },
-      {
-        "src": "06.webp",
-        "w": 1188,
-        "h": 788
-      },
-      {
-        "src": "07.webp",
-        "w": 1189,
-        "h": 789
-      },
-      {
-        "src": "08.webp",
-        "w": 1174,
-        "h": 777
-      }
-    ]
-  },
-  {
-    "id": "my-an-onsen",
-    "slug": "my-an-onsen",
-    "category": "onsen",
-    "featured": false,
-    "title": "Mỹ An Onsen",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1024,
-        "h": 1024
-      },
-      {
-        "src": "02.webp",
-        "w": 1024,
-        "h": 1024
-      },
-      {
-        "src": "03.webp",
-        "w": 1024,
-        "h": 683
-      },
-      {
-        "src": "04.webp",
-        "w": 1024,
-        "h": 768
-      },
-      {
-        "src": "05.webp",
-        "w": 1024,
-        "h": 683
-      },
-      {
-        "src": "06.webp",
-        "w": 1024,
-        "h": 683
-      },
-      {
-        "src": "07.webp",
-        "w": 1200,
-        "h": 675
-      },
-      {
-        "src": "08.webp",
-        "w": 1200,
-        "h": 800
-      },
-      {
-        "src": "09.webp",
-        "w": 1024,
-        "h": 683
-      },
-      {
-        "src": "10.webp",
-        "w": 1024,
-        "h": 767
-      },
-      {
-        "src": "11.webp",
-        "w": 1024,
-        "h": 683
-      },
-      {
-        "src": "12.webp",
-        "w": 1200,
-        "h": 800
-      },
-      {
-        "src": "13.webp",
-        "w": 1500,
-        "h": 1124
-      },
-      {
-        "src": "14.webp",
-        "w": 1500,
-        "h": 1124
-      },
-      {
-        "src": "15.webp",
-        "w": 800,
-        "h": 450
-      }
-    ]
-  },
-  {
-    "id": "quang-binh-onsen-resort",
-    "slug": "quang-binh-onsen-resort",
-    "category": "onsen",
-    "featured": false,
-    "title": "Quảng Bình Onsen Resort",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 832,
-        "h": 753
-      },
-      {
-        "src": "02.webp",
-        "w": 914,
-        "h": 564
-      }
-    ]
-  },
-  {
-    "id": "shizen-home",
-    "slug": "shizen-home",
-    "category": "onsen",
-    "featured": false,
-    "title": "Shizen Home",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1012,
-        "h": 674
-      },
-      {
-        "src": "02.webp",
-        "w": 832,
-        "h": 555
-      },
-      {
-        "src": "03.webp",
-        "w": 675,
-        "h": 674
-      },
-      {
-        "src": "04.webp",
-        "w": 484,
-        "h": 483
-      },
-      {
-        "src": "05.webp",
-        "w": 1012,
-        "h": 674
-      },
-      {
-        "src": "06.webp",
-        "w": 832,
-        "h": 555
-      },
-      {
-        "src": "07.webp",
-        "w": 675,
-        "h": 674
-      },
-      {
-        "src": "08.webp",
-        "w": 484,
-        "h": 483
-      }
-    ]
-  },
-  {
-    "id": "yoko-quang-hanh",
-    "slug": "yoko-quang-hanh",
-    "category": "onsen",
-    "featured": false,
-    "title": "Yoko Quảng Hanh",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1200,
-        "h": 800
-      },
-      {
-        "src": "02.webp",
-        "w": 699,
+        "w": 590,
         "h": 490
       },
       {
+        "src": "02.webp",
+        "w": 449,
+        "h": 662
+      },
+      {
         "src": "03.webp",
-        "w": 497,
-        "h": 366
+        "w": 457,
+        "h": 683
       },
       {
         "src": "04.webp",
-        "w": 996,
-        "h": 621
+        "w": 789,
+        "h": 368
       },
       {
         "src": "05.webp",
-        "w": 999,
+        "w": 1024,
+        "h": 692
+      },
+      {
+        "src": "06.webp",
+        "w": 997,
+        "h": 703
+      },
+      {
+        "src": "07.webp",
+        "w": 871,
+        "h": 682
+      }
+    ]
+  },
+  {
+    "id": "yoko",
+    "slug": "yoko",
+    "category": "onsen",
+    "featured": true,
+    "title": "Yoko Onsen Quang Hanh",
+    "location": "Quang Hanh, Quảng Ninh",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "Nép mình giữa những triền núi xanh, đây là khu nghỉ dưỡng suối khoáng nóng chuẩn Nhật đầu tiên tại Việt Nam. Tổ hợp gồm khu tắm khoáng onsen, trị liệu, spa, nhà nghỉ truyền thống kiểu Nhật và nhà hàng organic. Nước suối nóng khoảng 60 đến 70 độ C, tắm được quanh năm.",
+      "en": "Nestled among green mountain slopes, this is the first Japanese-standard hot-spring resort in Vietnam. The complex has onsen bathing, therapy, a spa, traditional Japanese-style lodging and an organic restaurant. The spring water is about 60 to 70 °C and can be enjoyed year-round."
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 803,
+        "h": 1000
+      },
+      {
+        "src": "02.webp",
+        "w": 494,
+        "h": 373
+      },
+      {
+        "src": "03.webp",
+        "w": 1024,
+        "h": 570
+      },
+      {
+        "src": "04.webp",
+        "w": 1024,
+        "h": 579
+      },
+      {
+        "src": "05.webp",
+        "w": 1024,
+        "h": 543
+      }
+    ]
+  },
+  {
+    "id": "mori",
+    "slug": "mori",
+    "category": "onsen",
+    "featured": true,
+    "title": "Mori Onsen",
+    "location": "Ecopark, Hà Nội",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "Tổ hợp khoáng nóng rộng 2.000 m² giữa lòng khu đô thị Ecopark, gồm 15 bể tắm khoáng, spa, xông hơi, nhà hàng và bể bơi. Dự án tạo ra 3 dòng suối khoáng nóng với chất lượng tương đương vùng Hakone, Nhật Bản.",
+      "en": "A 2,000 m² hot-spring complex in the heart of the Ecopark urban area, with 15 mineral baths, a spa, sauna, restaurant and swimming pool. The project creates 3 hot-spring sources of a quality comparable to Hakone, Japan."
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 681,
+        "h": 1000
+      },
+      {
+        "src": "02.webp",
+        "w": 896,
+        "h": 1300
+      },
+      {
+        "src": "03.webp",
+        "w": 924,
+        "h": 772
+      },
+      {
+        "src": "04.webp",
+        "w": 806,
+        "h": 485
+      },
+      {
+        "src": "05.webp",
+        "w": 810,
+        "h": 1252
+      }
+    ]
+  },
+  {
+    "id": "kimboi",
+    "slug": "kimboi",
+    "category": "onsen",
+    "featured": true,
+    "title": "Kim Bôi Onsen",
+    "location": "Kim Bôi, Hòa Bình",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "Thiết kế nội thất khu onsen, nhà hàng và sảnh đón cho tổ hợp khoáng nóng tại Kim Bôi.",
+      "en": "Interior design for the onsen area, restaurant and reception hall of a hot-spring complex in Kim Boi."
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 895,
+        "h": 560
+      },
+      {
+        "src": "02.webp",
+        "w": 1300,
+        "h": 977
+      },
+      {
+        "src": "03.webp",
+        "w": 896,
+        "h": 583
+      },
+      {
+        "src": "04.webp",
+        "w": 745,
+        "h": 1200
+      },
+      {
+        "src": "05.webp",
+        "w": 1100,
+        "h": 573
+      },
+      {
+        "src": "06.webp",
+        "w": 920,
+        "h": 573
+      }
+    ]
+  },
+  {
+    "id": "lessen",
+    "slug": "lessen",
+    "category": "onsen",
+    "featured": true,
+    "title": "Les Sen Onsen Hotel",
+    "location": "Phú Quốc",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "Tổ hợp khoáng nóng giữa lòng đảo ngọc Phú Quốc, gồm bể tắm khoáng, spa, xông hơi, nhà hàng và hồ bơi.",
+      "en": "A hot-spring complex in the heart of Phu Quoc island, with mineral baths, a spa, sauna, restaurant and pool."
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 982,
+        "h": 614
+      },
+      {
+        "src": "02.webp",
+        "w": 1300,
+        "h": 808
+      },
+      {
+        "src": "03.webp",
+        "w": 985,
+        "h": 642
+      },
+      {
+        "src": "04.webp",
+        "w": 1300,
+        "h": 668
+      },
+      {
+        "src": "05.webp",
+        "w": 1063,
+        "h": 491
+      },
+      {
+        "src": "06.webp",
+        "w": 908,
+        "h": 490
+      }
+    ]
+  },
+  {
+    "id": "oasis",
+    "slug": "oasis",
+    "category": "onsen",
+    "featured": true,
+    "title": "Oasis Onsen Đại Lải",
+    "location": "Đại Lải, Vĩnh Phúc",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "Khu nghỉ dưỡng Ikigai Onsen Village với 60% diện tích dành cho cảnh quan thiên nhiên công cộng: quảng trường đá và nước, công viên tre, hồ điều hòa, đồi cỏ land-art. Dự án gồm khách sạn 5 sao, villa onsen, khu onsen cao cấp, bể bơi bốn mùa, phố đi bộ và nhà hàng Á – Âu.",
+      "en": "The Ikigai Onsen Village resort, with 60% of its area given to public natural landscape: a stone-and-water plaza, a bamboo park, a retention lake and land-art grass hills. The project includes a 5-star hotel, onsen villas, a premium onsen area, a four-season pool, a pedestrian street and an Asian–European restaurant."
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1000,
+        "h": 568
+      },
+      {
+        "src": "02.webp",
+        "w": 1300,
+        "h": 732
+      },
+      {
+        "src": "03.webp",
+        "w": 1300,
+        "h": 610
+      },
+      {
+        "src": "04.webp",
+        "w": 1284,
+        "h": 745
+      },
+      {
+        "src": "05.webp",
+        "w": 1013,
         "h": 612
       },
       {
         "src": "06.webp",
-        "w": 1224,
-        "h": 618
+        "w": 1300,
+        "h": 731
       },
       {
         "src": "07.webp",
-        "w": 1008,
-        "h": 621
-      },
-      {
-        "src": "08.webp",
-        "w": 1003,
-        "h": 616
-      },
-      {
-        "src": "09.webp",
-        "w": 2000,
-        "h": 1220
-      },
-      {
-        "src": "10.webp",
-        "w": 2000,
-        "h": 1486
-      },
-      {
-        "src": "11.webp",
-        "w": 2000,
-        "h": 1304
-      },
-      {
-        "src": "12.webp",
-        "w": 2000,
-        "h": 930
-      },
-      {
-        "src": "13.webp",
-        "w": 2000,
-        "h": 1377
-      },
-      {
-        "src": "14.webp",
-        "w": 2000,
-        "h": 1486
-      },
-      {
-        "src": "15.webp",
-        "w": 2000,
-        "h": 1034
-      },
-      {
-        "src": "16.webp",
-        "w": 2000,
-        "h": 1034
-      },
-      {
-        "src": "17.webp",
-        "w": 2000,
-        "h": 1316
+        "w": 1300,
+        "h": 628
       }
     ]
   },
   {
-    "id": "dai-lai-onsen",
-    "slug": "dai-lai-onsen",
+    "id": "ecopark",
+    "slug": "ecopark",
     "category": "onsen",
-    "featured": false,
-    "title": "Đại Lải Onsen",
-    "location": "",
+    "featured": true,
+    "title": "Ecopark Sixsenses",
+    "location": "Đồng Nai",
     "year": "",
     "client": "",
     "area": "",
     "role": "",
     "summary": {
-      "vi": "",
-      "en": ""
+      "vi": "Thiết kế khu onsen theo phong cách Nhật Bản hiện đại cho dự án Ecopark tại Đồng Nai.",
+      "en": "Design of a modern Japanese-style onsen area for the Ecopark project in Dong Nai."
     },
     "cover": 0,
     "images": [
       {
         "src": "01.webp",
-        "w": 1980,
-        "h": 1114
-      },
-      {
-        "src": "02.webp",
-        "w": 1980,
-        "h": 1114
-      },
-      {
-        "src": "03.webp",
-        "w": 1980,
-        "h": 1114
-      },
-      {
-        "src": "04.webp",
-        "w": 1980,
-        "h": 1114
-      },
-      {
-        "src": "05.webp",
-        "w": 1980,
-        "h": 1114
-      },
-      {
-        "src": "06.webp",
-        "w": 1980,
-        "h": 1114
-      }
-    ]
-  },
-  {
-    "id": "bai-dai-cultural-and-ecotourism-park-planning",
-    "slug": "bai-dai-cultural-and-ecotourism-park-planning",
-    "category": "planning",
-    "featured": false,
-    "title": "Bãi Dài Cultural & Ecotourism Park",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1307,
-        "h": 909
-      },
-      {
-        "src": "02.webp",
-        "w": 724,
-        "h": 406
-      },
-      {
-        "src": "03.webp",
-        "w": 721,
-        "h": 406
-      },
-      {
-        "src": "04.webp",
-        "w": 1062,
-        "h": 739
-      },
-      {
-        "src": "05.webp",
-        "w": 1186,
-        "h": 666
-      },
-      {
-        "src": "06.webp",
-        "w": 1178,
-        "h": 660
-      },
-      {
-        "src": "07.webp",
-        "w": 1112,
-        "h": 623
-      }
-    ]
-  },
-  {
-    "id": "hai-duong-sea-eco-tourism-resort-planning",
-    "slug": "hai-duong-sea-eco-tourism-resort-planning",
-    "category": "planning",
-    "featured": false,
-    "title": "Hải Dương Sea Eco-Tourism Resort",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1195,
-        "h": 796
-      },
-      {
-        "src": "02.webp",
-        "w": 468,
-        "h": 468
-      },
-      {
-        "src": "03.webp",
-        "w": 468,
-        "h": 469
-      },
-      {
-        "src": "04.webp",
-        "w": 468,
-        "h": 469
-      }
-    ]
-  },
-  {
-    "id": "ham-nghi-luxury",
-    "slug": "ham-nghi-luxury",
-    "category": "planning",
-    "featured": false,
-    "title": "Hàm Nghi Luxury",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1240,
+        "w": 1000,
         "h": 751
-      }
-    ]
-  },
-  {
-    "id": "ho-tram-kingston",
-    "slug": "ho-tram-kingston",
-    "category": "planning",
-    "featured": false,
-    "title": "Hồ Tràm Kingston",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1451,
-        "h": 679
       },
       {
         "src": "02.webp",
-        "w": 1057,
-        "h": 594
+        "w": 1153,
+        "h": 1300
       },
       {
         "src": "03.webp",
-        "w": 609,
-        "h": 342
+        "w": 1300,
+        "h": 992
       },
       {
         "src": "04.webp",
-        "w": 600,
-        "h": 372
-      }
-    ]
-  },
-  {
-    "id": "kodama",
-    "slug": "kodama",
-    "category": "planning",
-    "featured": false,
-    "title": "Kodama",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1149,
-        "h": 678
-      },
-      {
-        "src": "02.webp",
-        "w": 854,
-        "h": 596
-      },
-      {
-        "src": "03.webp",
-        "w": 854,
-        "h": 584
-      }
-    ]
-  },
-  {
-    "id": "ngoa-van-ho-thien-cultural-tourist-area",
-    "slug": "ngoa-van-ho-thien-cultural-tourist-area",
-    "category": "planning",
-    "featured": false,
-    "title": "Ngọa Vân – Hồ Thiên Cultural Tourist Area",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1216,
-        "h": 739
-      },
-      {
-        "src": "02.webp",
-        "w": 1030,
-        "h": 1533
-      }
-    ]
-  },
-  {
-    "id": "phieng-phat-hot-spring-resort",
-    "slug": "phieng-phat-hot-spring-resort",
-    "category": "planning",
-    "featured": false,
-    "title": "Phiêng Phát Hot Spring Resort",
-    "location": "",
-    "year": "",
-    "client": "",
-    "area": "",
-    "role": "",
-    "summary": {
-      "vi": "",
-      "en": ""
-    },
-    "cover": 0,
-    "images": [
-      {
-        "src": "01.webp",
-        "w": 1396,
-        "h": 785
-      },
-      {
-        "src": "02.webp",
-        "w": 657,
-        "h": 784
-      },
-      {
-        "src": "03.webp",
-        "w": 657,
-        "h": 657
-      },
-      {
-        "src": "04.webp",
-        "w": 1281,
-        "h": 719
+        "w": 982,
+        "h": 609
       },
       {
         "src": "05.webp",
-        "w": 685,
-        "h": 822
-      },
-      {
-        "src": "06.webp",
-        "w": 755,
-        "h": 764
+        "w": 983,
+        "h": 640
       }
     ]
   },
   {
-    "id": "service-urban-area-planning-of-southern-chu-lai-airport",
-    "slug": "service-urban-area-planning-of-southern-chu-lai-airport",
-    "category": "planning",
-    "featured": false,
-    "title": "Service Urban Area – Southern Chu Lai Airport",
-    "location": "",
+    "id": "meyhome",
+    "slug": "meyhome",
+    "category": "onsen",
+    "featured": true,
+    "title": "Meyhome",
+    "location": "Phú Quốc",
     "year": "",
     "client": "",
     "area": "",
     "role": "",
     "summary": {
-      "vi": "",
-      "en": ""
+      "vi": "Thiết kế khu onsen, spa và nội thất cho dự án Meyhome tại Phú Quốc.",
+      "en": "Design of the onsen, spa and interiors for the Meyhome project in Phu Quoc."
     },
     "cover": 0,
     "images": [
       {
         "src": "01.webp",
-        "w": 1166,
-        "h": 882
+        "w": 1000,
+        "h": 598
       },
       {
         "src": "02.webp",
-        "w": 1043,
-        "h": 646
+        "w": 1140,
+        "h": 825
+      },
+      {
+        "src": "03.webp",
+        "w": 1139,
+        "h": 852
+      },
+      {
+        "src": "04.webp",
+        "w": 1092,
+        "h": 612
+      },
+      {
+        "src": "05.webp",
+        "w": 1092,
+        "h": 638
+      },
+      {
+        "src": "06.webp",
+        "w": 1300,
+        "h": 606
       }
     ]
   }

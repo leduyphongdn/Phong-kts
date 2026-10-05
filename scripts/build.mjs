@@ -10,7 +10,9 @@ const projects = JSON.parse(fs.readFileSync("content/projects.json", "utf8"));
 const SITE_URL = (process.env.SITE_URL || site.siteUrl).replace(/\/$/, "");
 const V = Date.now().toString(36);
 const byId = Object.fromEntries(projects.map((p) => [p.id, p]));
-const catKeys = Object.keys(site.categories);
+const profile = JSON.parse(fs.readFileSync("content/profile.json", "utf8"));
+const catKeys = Object.keys(site.categories).filter((c) => projects.some((p) => p.category === c));
+const HERO = "/img/hero.webp";
 
 const esc = (s = "") => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const img = (p, i, big = false) => `/img/projects/${p.slug}/${p.images[i].src.replace(".webp", big ? ".webp" : "-s.webp")}`;
@@ -40,7 +42,7 @@ const icon = {
 function layout({ l, t, title, desc, path: urlPath, alt, ogImage, body, bodyClass = "", jsonld = "" }) {
   const other = l === "vi" ? "en" : "vi";
   const canonical = SITE_URL + urlPath;
-  const og = SITE_URL + (ogImage || img(byId[site.heroImages[0].project], 0, true));
+  const og = SITE_URL + (ogImage || HERO);
   return `<!doctype html>
 <html lang="${t.htmlLang}">
 <head>
@@ -112,21 +114,14 @@ function projectCard(p, l, t, { size = "" } = {}) {
 
 function homePage(l) {
   const t = site.i18n[l];
-  const featured = projects.filter((p) => p.featured).slice(0, 8);
-  const slides = site.heroImages
-    .map((h, i) => {
-      const p = byId[h.project];
-      const im = p.images[h.image];
-      return `<div class="slide${i === 0 ? " is-active" : ""}"><img src="${img(p, h.image, true)}" width="${im.w}" height="${im.h}" alt="${esc(p.title)}" ${i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'}></div>`;
-    })
-    .join("");
+  const featured = projects;
   const counts = Object.fromEntries(catKeys.map((c) => [c, projects.filter((p) => p.category === c).length]));
   const body = `
 <section class="hero" aria-label="${site.brand}">
-  <div class="slides" id="slides">${slides}</div>
+  <div class="slides"><img class="hero-poster" src="${HERO}" width="${profile.hero.w}" height="${profile.hero.h}" alt="" fetchpriority="high"><video class="hero-video" autoplay muted loop playsinline preload="auto" poster="${HERO}" aria-hidden="true"><source src="/video/hero.mp4" type="video/mp4"></video></div>
   <div class="hero-shade"></div>
   <div class="hero-inner">
-    <p class="kicker">${t.heroKicker}</p>
+    <p class="kicker">${t.heroKicker}</p><p class="kana" lang="ja">${esc(site.kana)}</p>
     <h1>${t.heroTitle}</h1>
     <a class="btn" href="${workUrl(l)}">${t.heroCta} ${icon.arrow}</a>
   </div>
@@ -148,31 +143,19 @@ function homePage(l) {
   </div>
 </section>
 
-<section class="disciplines" aria-labelledby="disc-title">
-  <div class="section-head reveal"><div><p class="kicker">${t.disciplinesKicker}</p><h2 id="disc-title">${t.disciplinesTitle}</h2></div></div>
-  <div class="disc-grid">
-    ${catKeys
-      .map((c) => {
-        const cover = projects.find((p) => p.category === c && p.featured) || projects.find((p) => p.category === c);
-        return `<a class="disc reveal" href="${workUrl(l)}?c=${c}"><img src="${img(cover, cover.cover)}" alt="" loading="lazy" decoding="async" width="${cover.images[cover.cover].w}" height="${cover.images[cover.cover].h}"><div class="disc-in"><span class="count">${counts[c]} ${t.projectsCount}</span><h3>${catName(c, l)}</h3><p>${site.categoryBlurb[c][l]}</p></div></a>`;
-      })
-      .join("")}
-  </div>
-</section>
-
 <section class="about" id="about" aria-labelledby="about-title">
   <div class="about-grid">
-    <div class="reveal">
+    <figure class="portrait reveal"><img src="/img/portrait.webp" width="${profile.portrait.w}" height="${profile.portrait.h}" alt="${esc(site.person)}" loading="lazy" decoding="async"></figure>
+    <div class="about-copy reveal">
       <p class="kicker">${t.aboutKicker}</p>
       <h2 id="about-title">${t.aboutTitle}</h2>
       <p class="role">${t.aboutRole}</p>
-    </div>
-    <div class="about-copy reveal">
-      <p>${t.aboutP1}</p><p>${t.aboutP2}</p><p>${t.aboutP3}</p>
+      <p class="lead-in">${t.lead}</p>
+      <p>${t.aboutP1}</p><p>${t.aboutP2}</p>
       <dl class="stats">
-        <div><dt>${projects.length}</dt><dd>${t.statProjects}</dd></div>
-        <div><dt>${catKeys.length}</dt><dd>${t.statDisciplines}</dd></div>
-        <div><dt>10</dt><dd>${t.statTeam}</dd></div>
+        <div><dt>${t.f1}</dt><dd>${t.factRole}</dd></div>
+        <div><dt>${t.f2}</dt><dd>${t.factBase}</dd></div>
+        <div><dt>${t.f3}</dt><dd>${t.factFocus}</dd></div>
       </dl>
     </div>
   </div>
@@ -186,6 +169,7 @@ function homePage(l) {
     <a href="mailto:${site.email}"><small>${t.write}</small>${site.email}</a>
     <a href="tel:${site.phoneHref}"><small>${t.call}</small>${site.phone}</a>
   </div>
+  <p class="address reveal"><small>${t.address}</small>${esc(site.address)}</p>
 </section>`;
   const ld = `<script type="application/ld+json">${JSON.stringify({
     "@context": "https://schema.org",
@@ -195,7 +179,7 @@ function homePage(l) {
     telephone: site.phone,
     email: site.email,
     founder: { "@type": "Person", name: site.person, jobTitle: t.aboutRole },
-    image: SITE_URL + img(byId[site.heroImages[0].project], 0, true),
+    image: SITE_URL + HERO,
   })}</script>`;
   return layout({ l, t, title: `${site.brand} – ${site.person}`, desc: t.metaHome, path: homeUrl(l), alt: homeUrl(l === "vi" ? "en" : "vi"), body, bodyClass: "home", jsonld: ld });
 }
@@ -207,15 +191,15 @@ function workPage(l) {
   <p class="kicker">${projects.length} ${t.projectsCount}</p>
   <h1>${t.projectsTitle}</h1>
   <p class="lead">${t.projectsLead}</p>
-  <div class="filters" role="group" aria-label="${t.category}" id="filters">
+  ${catKeys.length > 1 ? `<div class="filters" role="group" aria-label="${t.category}" id="filters">
     <button class="chip is-on" data-c="all" aria-pressed="true">${t.filterAll}</button>
     ${catKeys.map((c) => `<button class="chip" data-c="${c}" aria-pressed="false">${catName(c, l)}</button>`).join("")}
-  </div>
+  </div>` : ""}
 </section>
 <section class="grid-wrap"><div class="work-grid" id="work-grid">
   ${projects.map((p) => projectCard(p, l, t)).join("\n")}
 </div></section>`;
-  return layout({ l, t, title: `${t.projectsTitle} – ${site.brand}`, desc: t.metaProjects, path: workUrl(l), alt: workUrl(l === "vi" ? "en" : "vi"), body, bodyClass: "work", ogImage: img(byId[site.heroImages[1].project], 0, true) });
+  return layout({ l, t, title: `${t.projectsTitle} – ${site.brand}`, desc: t.metaProjects, path: workUrl(l), alt: workUrl(l === "vi" ? "en" : "vi"), body, bodyClass: "work", ogImage: HERO });
 }
 
 function detailPage(l, p, idx) {

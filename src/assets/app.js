@@ -22,16 +22,14 @@
     els.forEach((el) => io.observe(el));
   } else els.forEach((el) => el.classList.add("in"));
 
-  // hero slideshow
-  const slides = d.querySelectorAll("#slides .slide");
-  if (slides.length > 1 && !reduce) {
-    let i = 0;
-    setInterval(() => {
-      if (d.hidden) return;
-      slides[i].classList.remove("is-active");
-      i = (i + 1) % slides.length;
-      slides[i].classList.add("is-active");
-    }, 6500);
+  // hero video: chỉ hiện khi đã phát được
+  const hv = d.querySelector(".hero-video");
+  if (hv) {
+    if (reduce) hv.remove();
+    else {
+      hv.addEventListener("playing", () => hv.classList.add("ready"), { once: true });
+      hv.play?.().catch(() => {});
+    }
   }
 
   // filter (trang dự án)

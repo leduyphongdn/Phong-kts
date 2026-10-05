@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Website portfolio PHONG ARCHITECT",
   "scripts": {
-    "images": "node scripts/optimize-images.mjs",
     "build": "node scripts/build.mjs",
     "start": "node server.js",
     "dev": "node scripts/build.mjs && node server.js"
