@@ -280,7 +280,7 @@ html[lang=ja] h1,html[lang=ja] h2,html[lang=ja] h3{letter-spacing:0;line-height:
 
 /* logo Raymond bên trái PHONG ARCHITECT */
 .brand-logo{display:block;flex:none}
-.brand-logo img{display:block;height:30px;width:auto}
-.brand-sep{width:1px;height:24px;background:var(--line);flex:none}
-.foot-logo{height:30px;width:auto;margin-bottom:14px;display:block}
-@media(max-width:640px){.brand{gap:10px;font-size:.78rem;letter-spacing:.22em}.brand-logo img{height:28px}.brand-sep{height:20px}}
+.brand-logo img{display:block;height:38px;width:auto}
+.brand-sep{width:1px;height:26px;background:var(--line);flex:none}
+.foot-logo{height:40px;width:auto;margin-bottom:14px;display:block}
+@media(max-width:640px){.brand{gap:10px;font-size:.78rem;letter-spacing:.22em}.brand-logo img{height:34px}.brand-sep{height:22px}}

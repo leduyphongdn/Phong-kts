@@ -89,7 +89,7 @@ ${jsonld}
 <body class="${bodyClass}">
 <a class="skip" href="#main">${t.skip}</a>
 <header class="site-header" id="header">
-  <a class="brand" href="${homeUrl(l)}" aria-label="${site.brand} – Raymond"><picture class="brand-logo"><source media="(max-width:640px)" srcset="/img/raymond-mark.webp"><img src="/img/raymond-logo.webp" width="533" height="143" alt="Raymond"></picture><i class="brand-sep" aria-hidden="true"></i><span class="brand-text">PHONG<em> ARCHITECT</em></span></a>
+  <a class="brand" href="${homeUrl(l)}" aria-label="${site.brand} – Raymond"><span class="brand-logo"><img src="/img/raymond-mark.webp" width="149" height="143" alt="Raymond"></span><i class="brand-sep" aria-hidden="true"></i><span class="brand-text">PHONG<em> ARCHITECT</em></span></a>
   <nav class="nav" aria-label="${t.navLabel}" id="nav">
     <div class="has-menu" id="hasMenu">
       <a href="${workUrl(l)}" aria-haspopup="true" aria-expanded="false" id="workLink">${t.navWork}<svg class="caret" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
@@ -112,7 +112,7 @@ ${body}
 <footer class="site-footer">
   <div class="foot-grid">
     <div>
-      <img class="foot-logo" src="/img/raymond-logo.webp" width="533" height="143" alt="Raymond" loading="lazy"><p class="foot-brand">PHONG ARCHITECT</p>
+      <img class="foot-logo" src="/img/raymond-mark.webp" width="149" height="143" alt="Raymond" loading="lazy"><p class="foot-brand">PHONG ARCHITECT</p>
       <p class="muted">${esc(site.person)} · ${t.aboutRole}</p>
     </div>
     <div class="foot-links">
