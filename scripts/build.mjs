@@ -107,7 +107,7 @@ const catName = (c, l) => site.categories[c][l];
 function projectCard(p, l, t, { size = "" } = {}) {
   const im = p.images[p.cover];
   return `<a class="card ${size}" href="${projUrl(l, p)}" data-cat="${p.category}">
-  <figure class="card-img"><img src="${img(p, p.cover)}" srcset="${img(p, p.cover)} 800w, ${img(p, p.cover, true)} 2000w" sizes="(min-width:900px) 45vw, 100vw" width="${im.w}" height="${im.h}" alt="${esc(p.title)}" loading="lazy" decoding="async"></figure>
+  <figure class="card-img"><img src="${img(p, p.cover)}" srcset="${img(p, p.cover)} 800w, ${img(p, p.cover, true)} ${p.images[p.cover].w}w" sizes="(min-width:900px) 45vw, 100vw" width="${im.w}" height="${im.h}" alt="${esc(p.title)}" loading="lazy" decoding="async"></figure>
   <div class="card-meta"><h3>${esc(p.title)}</h3><span>${catName(p.category, l)}${p.location ? " · " + esc(p.location) : ""}</span></div>
 </a>`;
 }
@@ -233,7 +233,7 @@ function detailPage(l, p, idx) {
   const gallery = p.images
     .map(
       (im, k) =>
-        `<a class="shot reveal" href="${img(p, k, true)}" data-i="${k}" style="--ar:${im.w}/${im.h}" aria-label="${esc(p.title)} ${k + 1}/${p.images.length}"><img src="${img(p, k)}" srcset="${img(p, k)} 800w, ${img(p, k, true)} 2000w" sizes="(min-width:900px) 50vw, 100vw" width="${im.w}" height="${im.h}" alt="${esc(p.title)} – ${k + 1}" loading="${k < 2 ? "eager" : "lazy"}" decoding="async"></a>`
+        `<a class="shot reveal" href="${img(p, k, true)}" data-i="${k}" style="--ar:${im.w}/${im.h}" aria-label="${esc(p.title)} ${k + 1}/${p.images.length}"><img src="${img(p, k)}" srcset="${img(p, k)} 800w, ${img(p, k, true)} ${im.w}w" sizes="(min-width:900px) 50vw, 100vw" width="${im.w}" height="${im.h}" alt="${esc(p.title)} – ${k + 1}" loading="${k < 2 ? "eager" : "lazy"}" decoding="async"></a>`
     )
     .join("\n");
   const body = `
