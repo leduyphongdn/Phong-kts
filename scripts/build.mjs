@@ -58,6 +58,9 @@ function layout({ l, t, title, desc, path: urlPath, alts, ogImage, body, bodyCla
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <meta name="theme-color" content="#0b0b0c">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="${site.person}">
+${site.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(site.googleSiteVerification)}">` : ""}
 <link rel="canonical" href="${canonical}">
 ${LANGS.map((x) => `<link rel="alternate" hreflang="${x}" href="${SITE_URL}${alts[x]}">`).join("\n")}
 <link rel="alternate" hreflang="x-default" href="${SITE_URL}${alts.vi}">
@@ -197,17 +200,26 @@ function homePage(l) {
   </div>
   <p class="address reveal"><small>${t.address}</small>${esc(site.address)}</p>
 </section>`;
-  const ld = `<script type="application/ld+json">${JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    name: site.brand,
-    url: SITE_URL,
-    telephone: site.phone,
+  const addr = { "@type": "PostalAddress", streetAddress: "Tầng 11, 218 Bạch Đằng, Phước Ninh", addressLocality: "Hải Châu, Đà Nẵng", addressCountry: "VN" };
+  const person = {
+    "@type": "Person",
+    "@id": SITE_URL + "/#person",
+    name: site.person,
+    alternateName: ["Le Duy Phong", "LE DUY PHONG", "Phong Architect", "KTS Lê Duy Phong", "レー ジー フォン"],
+    jobTitle: t.aboutRole,
+    description: t.metaHome,
+    url: SITE_URL + "/",
+    image: SITE_URL + "/img/portrait.webp",
     email: site.email,
-    founder: { "@type": "Person", name: site.person, jobTitle: t.aboutRole },
-    image: SITE_URL + HERO,
-  })}</script>`;
-  return layout({ l, t, title: `${site.brand} – ${site.person}`, desc: t.metaHome, path: homeUrl(l), alts: alts(homeUrl), body, bodyClass: "home", jsonld: ld });
+    telephone: site.phone,
+    address: addr,
+    worksFor: { "@type": "Organization", name: "Raymond Architectural Design Office" },
+    knowsAbout: ["Architecture", "Onsen", "Resort design", "Interior design", "Landscape", "Masterplanning"],
+    sameAs: site.sameAs || [],
+  };
+  const org = { "@type": "ProfessionalService", name: site.brand, url: SITE_URL + "/", telephone: site.phone, email: site.email, address: addr, image: SITE_URL + HERO, founder: { "@id": SITE_URL + "/#person" } };
+  const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@graph": [person, org] })}</script>`;
+  return layout({ l, t, title: t.titleHome, desc: t.metaHome, path: homeUrl(l), alts: alts(homeUrl), body, bodyClass: "home", jsonld: ld });
 }
 
 function workPage(l) {
@@ -315,7 +327,7 @@ for (const l of LANGS) {
 }
 write(
   "sitemap.xml",
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE_URL}${u}</loc></url>`).join("\n")}\n</urlset>\n`
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${SITE_URL}${u}</loc><lastmod>${new Date().toISOString().slice(0, 10)}</lastmod></url>`).join("\n")}\n</urlset>\n`
 );
 write("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}/sitemap.xml\n`);
 console.log(`Đã tạo ${urls.length + 1} trang trong dist/ (SITE_URL=${SITE_URL})`);

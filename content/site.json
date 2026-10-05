@@ -56,7 +56,7 @@
       "navWork": "Dự án",
       "navAbout": "Giới thiệu",
       "navContact": "Liên hệ",
-      "heroKicker": "Kiến trúc sư · Kiến trúc nghỉ dưỡng & Onsen",
+      "heroKicker": "Lê Duy Phong · Kiến trúc sư · Nghỉ dưỡng & Onsen",
       "heroTitle": "Kiến trúc cho <em>nơi con người nghỉ ngơi</em>.",
       "heroCta": "Xem dự án",
       "scroll": "Cuộn xuống",
@@ -101,7 +101,7 @@
       "switch": "EN",
       "switchLabel": "Switch to English",
       "rights": "Bảo lưu mọi quyền.",
-      "metaHome": "Phong Architect – Kiến trúc sư Lê Duy Phong. Kiến trúc nghỉ dưỡng, Onsen, nội thất, cảnh quan và quy hoạch.",
+      "metaHome": "Lê Duy Phong (Le Duy Phong) – Kiến trúc sư, Trưởng phòng Thiết kế & Trưởng văn phòng Đà Nẵng, Raymond Architectural Design Office. Phong Architect: kiến trúc resort, onsen kiểu Nhật, nội thất, cảnh quan và quy hoạch.",
       "metaProjects": "Tuyển tập dự án kiến trúc, nội thất, Onsen và quy hoạch của KTS Lê Duy Phong.",
       "lead": "Kiến trúc sư theo đuổi tinh thần thiết kế Nhật Bản: tối giản, tôn trọng thiên nhiên và chăm chút từng chi tiết.",
       "factRole": "Chức danh",
@@ -112,7 +112,8 @@
       "f3": "Onsen · Resort · Kiến trúc",
       "address": "Địa chỉ",
       "skip": "Bỏ qua điều hướng",
-      "navLabel": "Điều hướng chính"
+      "navLabel": "Điều hướng chính",
+      "titleHome": "Lê Duy Phong – KTS Phong Architect | Kiến trúc nghỉ dưỡng & Onsen"
     },
     "en": {
       "lang": "en",
@@ -120,7 +121,7 @@
       "navWork": "Work",
       "navAbout": "About",
       "navContact": "Contact",
-      "heroKicker": "Architect · Resort & Onsen Architecture",
+      "heroKicker": "Le Duy Phong · Architect · Resort & Onsen",
       "heroTitle": "Architecture for <em>places where people rest</em>.",
       "heroCta": "View work",
       "scroll": "Scroll",
@@ -165,7 +166,7 @@
       "switch": "VI",
       "switchLabel": "Chuyển sang tiếng Việt",
       "rights": "All rights reserved.",
-      "metaHome": "Phong Architect – Architect Lê Duy Phong. Resort architecture, Onsen, interior, landscape and masterplanning.",
+      "metaHome": "Le Duy Phong (Lê Duy Phong) – architect, Head of Design and Chief of the Da Nang Office at Raymond Architectural Design Office. Phong Architect: resort architecture, Japanese-style onsen, interior, landscape and masterplanning in Vietnam.",
       "metaProjects": "Selected architecture, interior, Onsen and planning projects by architect Lê Duy Phong.",
       "lead": "An architect pursuing the spirit of Japanese design: minimal, respectful of nature, and attentive to every detail.",
       "factRole": "Position",
@@ -176,7 +177,8 @@
       "f3": "Onsen · Resort · Architecture",
       "address": "Address",
       "skip": "Skip to content",
-      "navLabel": "Main"
+      "navLabel": "Main",
+      "titleHome": "Le Duy Phong – Phong Architect | Resort & Onsen Architect in Vietnam"
     },
     "ja": {
       "lang": "ja",
@@ -184,7 +186,7 @@
       "navWork": "プロジェクト",
       "navAbout": "プロフィール",
       "navContact": "お問い合わせ",
-      "heroKicker": "建築家 · リゾート＆温泉建築",
+      "heroKicker": "レー・ジー・フォン · 建築家 · リゾート＆温泉",
       "heroTitle": "<em>人が憩う場所</em>のための建築。",
       "heroCta": "プロジェクトを見る",
       "scroll": "スクロール",
@@ -228,7 +230,7 @@
       "prevImg": "前の画像",
       "nextImg": "次の画像",
       "rights": "無断転載を禁じます。",
-      "metaHome": "Phong Architect – 建築家 レー・ジー・フォン。リゾート建築、温泉、インテリア、ランドスケープ、マスタープラン。",
+      "metaHome": "レー・ジー・フォン（Lê Duy Phong）– Raymond Architectural Design Office 設計部長・ダナン事務所長。Phong Architect：リゾート建築、日本式温泉、インテリア、ランドスケープ、マスタープラン。",
       "metaProjects": "建築家 レー・ジー・フォンによる建築、インテリア、温泉、マスタープランのプロジェクト集。",
       "factRole": "役職",
       "factBase": "事務所",
@@ -238,7 +240,8 @@
       "f3": "温泉 · リゾート · 建築",
       "address": "住所",
       "skip": "メインコンテンツへ移動",
-      "navLabel": "メインナビゲーション"
+      "navLabel": "メインナビゲーション",
+      "titleHome": "レー・ジー・フォン（Le Duy Phong）– Phong Architect｜リゾート・温泉建築家"
     }
   },
   "address": "Tầng 11, 218 Bạch Đằng, Phước Ninh, Hải Châu, Đà Nẵng",
@@ -258,5 +261,7 @@
     "vi": "Tiếng Việt",
     "en": "English",
     "ja": "日本語"
-  }
+  },
+  "googleSiteVerification": "",
+  "sameAs": []
 }
