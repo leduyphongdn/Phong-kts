@@ -37,7 +37,7 @@
   // hero video: chỉ hiện khi đã phát được
   const hv = d.querySelector(".hero-video");
   if (hv) {
-    if (reduce) hv.remove();
+    if (reduce) { hv.removeAttribute("autoplay"); hv.pause(); hv.addEventListener("loadeddata", () => hv.classList.add("ready"), { once: true }); }
     else {
       // màn hình lớn + mạng không tiết kiệm dữ liệu → dùng bản 4K, còn lại giữ bản 1080p
       const sd = navigator.connection && navigator.connection.saveData;

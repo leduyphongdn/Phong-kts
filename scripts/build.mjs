@@ -132,7 +132,7 @@ function homePage(l) {
   const counts = Object.fromEntries(catKeys.map((c) => [c, projects.filter((p) => p.category === c).length]));
   const body = `
 <section class="hero" aria-label="${site.brand}">
-  <div class="slides"><img class="hero-poster" src="${HERO}" width="${profile.hero.w}" height="${profile.hero.h}" alt="" fetchpriority="high"><video class="hero-video" autoplay muted loop playsinline preload="auto" poster="${HERO}" aria-hidden="true"><source src="/video/hero.mp4" type="video/mp4"></video></div>
+  <div class="slides"><video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="/video/hero.mp4" type="video/mp4"></video></div>
   <div class="hero-shade"></div>
   <div class="hero-inner">
     <p class="kicker">${t.heroKicker}</p><p class="kana" lang="ja">${esc(site.kana)}</p>
