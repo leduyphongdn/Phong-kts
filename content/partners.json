@@ -8,31 +8,37 @@
     },
     "items": [
       {
-        "name": "An Cường"
+        "name": "An Cường",
+        "logo": "/img/partners/an-cuong.webp"
       },
       {
         "name": "Formica"
       },
       {
-        "name": "TOTO"
+        "name": "TOTO",
+        "logo": "/img/partners/toto.webp"
       },
       {
         "name": "LIXIL"
       },
       {
-        "name": "Vĩnh Tường"
+        "name": "Vĩnh Tường",
+        "logo": "/img/partners/vinh-tuong.webp"
       },
       {
         "name": "Häfele"
       },
       {
-        "name": "Nippon Paint"
+        "name": "Nippon Paint",
+        "logo": "/img/partners/nippon.webp"
       },
       {
-        "name": "Kansai Paint"
+        "name": "Kansai Paint",
+        "logo": "/img/partners/kansai.webp"
       },
       {
-        "name": "Vietceramics"
+        "name": "Vietceramics",
+        "logo": "/img/partners/vietceramics.webp"
       },
       {
         "name": "Taicera"

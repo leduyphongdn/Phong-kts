@@ -300,3 +300,13 @@ html[lang=ja] h1,html[lang=ja] h2,html[lang=ja] h3{letter-spacing:0;line-height:
 .partner-grid li:hover img{opacity:1;filter:none}
 @media(max-width:1000px){.partner-grid{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:700px){.partner-grid{grid-template-columns:repeat(2,1fr)}.partner-grid a,.partner-grid li>div{min-height:84px}}
+
+/* đối tác: mỗi ô là một tấm nền sáng để logo màu luôn rõ (ghi đè kiểu tối ở trên) */
+.partner-grid{border:0;gap:10px}
+.partner-grid li{border:0}
+.partner-grid a,.partner-grid li>div{background:#f2efe9;min-height:110px;transition:background .3s,transform .3s var(--ease)}
+.partner-grid a:hover,.partner-grid li:hover>div{background:#fff;transform:translateY(-2px)}
+.wordmark{color:#2b2824;font-weight:400;letter-spacing:.08em}
+.partner-grid li:hover .wordmark{color:#000}
+.partner-grid img{max-height:50px;max-width:78%;filter:none;opacity:1}
+.partner-grid li:hover img{filter:none}
