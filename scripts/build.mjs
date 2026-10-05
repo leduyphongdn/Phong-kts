@@ -186,7 +186,10 @@ function homePage(l) {
 
 <section class="partners" id="partners" aria-labelledby="partners-title">
   <div class="section-head reveal"><div><p class="kicker">${t.partnersKicker}</p><h2 id="partners-title">${t.partnersTitle}</h2><p class="lead sec-lead">${t.partnersLead}</p></div></div>
-  ${partners.map((g) => `<div class="partner-group reveal"><h3>${esc(g.title[l] || g.title.vi)}</h3><ul class="partner-grid">${g.items.map((it) => { const inner = it.logo ? `<img src="${esc(it.logo)}" alt="${esc(it.name)}" loading="lazy" decoding="async">` : `<span class="wordmark">${esc(it.name)}</span>`; return `<li>${it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener" aria-label="${esc(it.name)}">${inner}</a>` : `<div title="${esc(it.name)}">${inner}</div>`}</li>`; }).join("")}</ul></div>`).join("")}
+  ${partners.map((g) => {
+    const lis = g.items.map((it) => { const inner = it.logo ? `<img src="${esc(it.logo)}" alt="${esc(it.name)}" decoding="async">` : `<span class="wordmark">${esc(it.name)}</span>`; return `<li>${it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener" aria-label="${esc(it.name)}">${inner}</a>` : `<div title="${esc(it.name)}">${inner}</div>`}</li>`; }).join("");
+    return `<div class="partner-group reveal"><h3>${esc(g.title[l] || g.title.vi)}</h3><div class="marquee" role="group" aria-label="${esc(g.title[l] || g.title.vi)}"><div class="marquee-track"><ul class="partner-row">${lis}</ul><ul class="partner-row" aria-hidden="true">${lis.replace(/ alt="[^"]*"/g, ' alt=""').replace(/ title="[^"]*"/g, "")}</ul></div></div></div>`;
+  }).join("")}
 </section>
 
 <section class="about" id="about" aria-labelledby="about-title">
