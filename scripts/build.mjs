@@ -13,7 +13,7 @@ const V = Date.now().toString(36);
 // BASE_PATH: dùng khi site nằm trong thư mục con (vd GitHub Pages: /Phong-kts). Để trống nếu chạy ở gốc tên miền.
 const BASE = (process.env.BASE_PATH || "").replace(/\/$/, "");
 // thêm BASE vào mọi đường dẫn gốc "/img/...", "/du-an/...", href="/" ... (kể cả trong srcset)
-const ROOTS = /([\s"'(,])\/(?=#|(?:img|video|assets|du-an|en|projects|ja|favicon\.svg|404\.html|sitemap\.xml)\b|["'])/g;
+const ROOTS = /([\s"'(,])\/(?=#|(?:img|video|assets|du-an|en|projects|ja|favicon[^"']*|apple-touch-icon\.png|404\.html|sitemap\.xml)\b|["'])/g;
 const rebase = (html) => (BASE ? html.replace(ROOTS, (_, c) => c + BASE + "/") : html);
 const byId = Object.fromEntries(projects.map((p) => [p.id, p]));
 const profile = JSON.parse(fs.readFileSync("content/profile.json", "utf8"));
@@ -79,7 +79,10 @@ ${LANGS.map((x) => `<link rel="alternate" hreflang="${x}" href="${SITE_URL}${alt
 <meta property="og:image:alt" content="${esc(title)}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${og}">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
