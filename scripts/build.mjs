@@ -79,7 +79,15 @@ ${jsonld}
 <header class="site-header" id="header">
   <a class="brand" href="${homeUrl(l)}" aria-label="${site.brand}">PHONG<span> ARCHITECT</span></a>
   <nav class="nav" aria-label="${l === "vi" ? "Điều hướng chính" : "Main"}" id="nav">
-    <a href="${workUrl(l)}">${t.navWork}</a>
+    <div class="has-menu" id="hasMenu">
+      <a href="${workUrl(l)}" aria-haspopup="true" aria-expanded="false" id="workLink">${t.navWork}<svg class="caret" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+      <div class="mega" role="region" aria-label="${t.navWork}">
+        <div class="mega-grid">
+          ${catKeys.map((c) => { const list = projects.filter((p) => p.category === c); return `<div class="mega-col"><a class="mega-head" href="${workUrl(l)}?c=${c}">${catName(c, l)} <span>${list.length}</span></a><ul>${list.map((p) => `<li><a href="${projUrl(l, p)}">${esc(p.title)}</a></li>`).join("")}</ul></div>`; }).join("")}
+        </div>
+        <a class="mega-all" href="${workUrl(l)}">${t.allWork} ${icon.arrow}</a>
+      </div>
+    </div>
     <a href="${homeUrl(l)}#about">${t.navAbout}</a>
     <a href="${homeUrl(l)}#contact">${t.navContact}</a>
     <a class="lang" href="${alt}" hreflang="${other}" lang="${other}" aria-label="${t.switchLabel}">${t.switch}</a>

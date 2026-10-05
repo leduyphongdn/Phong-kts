@@ -22,9 +22,8 @@ Trường để trống (`location`, `year`, ...) sẽ tự ẩn trên trang d�
 ```
 
 ## Ảnh và video
-Toàn bộ ảnh/video lấy từ artifact "Phong Kiến Trúc" (9 dự án Onsen, ảnh bìa, chân dung, video hero) bằng `scripts/import-artifact.mjs`.
-- Ảnh hero: `public/img/hero.webp`, chân dung: `public/img/portrait.webp`, video: `public/video/hero.mp4`
-- Ảnh dự án: `public/img/projects/<id>/NN.webp` (+ `NN-s.webp` bản nhỏ); thêm ảnh mới thì khai báo trong `content/projects.json`.
+Thư mục nguồn `PROJECTS/TỔNG HỢP DỰ ÁN` là nguồn sự thật: mỗi thư mục con = một dự án (nhóm theo thư mục cha). Chạy `node scripts/import-source.mjs` để nén ảnh sang WebP (tối đa 2800 px) và tạo lại `content/projects.json`. Dự án không có trong thư mục nguồn sẽ bị bỏ khỏi web. Tên/mô tả giữ trong `content/overrides.json`.
+Hero: `public/img/hero.webp`, `public/video/hero*.mp4`; chân dung: `public/img/portrait.webp`.
 
 ## Deploy miễn phí bằng GitHub Pages
 1. Push code lên nhánh `main` (workflow `.github/workflows/pages.yml` tự build).

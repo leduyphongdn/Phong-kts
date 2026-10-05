@@ -15,6 +15,18 @@
   nav.addEventListener("click", (e) => { if (e.target.closest("a")) setMenu(false); });
   addEventListener("keydown", (e) => { if (e.key === "Escape") setMenu(false); });
 
+  // menu cây dự án: hover (máy tính) / chạm lần đầu để mở (điện thoại, máy tính bảng)
+  const hm = d.getElementById("hasMenu"), wl = d.getElementById("workLink");
+  if (hm && wl) {
+    const touchy = () => matchMedia("(hover: none)").matches || innerWidth <= 760;
+    const setOpen = (o) => { hm.classList.toggle("open", o); wl.setAttribute("aria-expanded", o); };
+    wl.addEventListener("click", (e) => { if (touchy() && !hm.classList.contains("open")) { e.preventDefault(); setOpen(true); } });
+    hm.addEventListener("mouseenter", () => wl.setAttribute("aria-expanded", "true"));
+    hm.addEventListener("mouseleave", () => wl.setAttribute("aria-expanded", "false"));
+    d.addEventListener("click", (e) => { if (!hm.contains(e.target)) setOpen(false); });
+    addEventListener("keydown", (e) => { if (e.key === "Escape") setOpen(false); });
+  }
+
   // reveal
   const els = d.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window && !reduce) {
