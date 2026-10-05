@@ -27,6 +27,9 @@
   if (hv) {
     if (reduce) hv.remove();
     else {
+      // màn hình lớn + mạng không tiết kiệm dữ liệu → dùng bản 4K, còn lại giữ bản 1080p
+      const sd = navigator.connection && navigator.connection.saveData;
+      if (innerWidth >= 1600 && !sd) { const src = hv.querySelector("source"); src.src = "/video/hero-4k.mp4"; hv.load(); }
       hv.addEventListener("playing", () => hv.classList.add("ready"), { once: true });
       hv.play?.().catch(() => {});
     }
