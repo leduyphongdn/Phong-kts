@@ -235,7 +235,7 @@ section{position:relative}
 .has-menu>a{gap:8px}
 .caret{transition:transform .3s var(--ease)}
 .has-menu:hover .caret,.has-menu.open .caret,.has-menu:focus-within .caret{transform:rotate(180deg)}
-.mega{position:absolute;left:0;right:0;top:100%;background:rgba(11,11,12,.96);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);padding:36px var(--pad) 28px;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .3s,transform .3s var(--ease),visibility .3s;text-transform:none;letter-spacing:0;max-height:calc(100svh - 70px);overflow:auto}
+.mega{position:absolute;left:0;right:0;top:100%;background:rgba(11,11,12,.96);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);padding:36px var(--pad) 28px;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .3s,transform .3s var(--ease),visibility .3s;text-transform:none;letter-spacing:0;max-height:calc(100svh - 70px);overflow-x:hidden;overflow-y:auto}
 .mega::before{content:"";position:absolute;left:0;right:0;top:-18px;height:18px}
 .has-menu:hover .mega,.has-menu:focus-within .mega,.has-menu.open .mega{opacity:1;visibility:visible;transform:none}
 .mega-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,3vw,48px);max-width:1500px;margin:auto}
