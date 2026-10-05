@@ -169,7 +169,7 @@ function homePage(l) {
 </section>
 
 <section class="disciplines" aria-labelledby="disc-title">
-  <div class="section-head reveal"><div><p class="kicker">${t.disciplinesKicker}</p><h2 id="disc-title">${t.disciplinesTitle}</h2></div><a class="link-arrow" href="${workUrl(l)}">${t.allWork} ${icon.arrow}</a></div>
+  <div class="section-head reveal"><div>${t.disciplinesKicker ? `<p class="kicker">${t.disciplinesKicker}</p>` : ""}<h2 id="disc-title">${t.disciplinesTitle}</h2></div><a class="link-arrow" href="${workUrl(l)}">${t.allWork} ${icon.arrow}</a></div>
   <div class="disc-grid">
     ${catKeys
       .map((c) => {
