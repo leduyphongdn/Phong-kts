@@ -35,3 +35,8 @@ Build có tiền tố thư mục con nhờ biến `BASE_PATH`. Khi dùng tên mi
 SITE_URL=https://phongarchitect.com npm run build   # rồi upload dist/ lên hosting bất kỳ
 ```
 `public/.htaccess` dành cho Apache/Hostinger. `server.js` (Express) phục vụ `dist/` nếu chạy Node.js.
+
+## Dùng tên miền riêng (vd phong.raymondsekkei.com)
+1. DNS: thêm bản ghi `CNAME`, Host `phong`, Value `leduyphongdn.github.io`.
+2. Repo → Settings → Secrets and variables → Actions → Variables: thêm `CUSTOM_DOMAIN` = `phong.raymondsekkei.com`, rồi chạy lại workflow.
+3. Settings → Pages → Custom domain: nhập tên miền, Save; khi GitHub cấp xong chứng chỉ thì bật **Enforce HTTPS**.
