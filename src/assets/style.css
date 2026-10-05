@@ -206,3 +206,26 @@ section{position:relative}
 .address small{display:block;font:500 .66rem var(--sans);letter-spacing:.22em;text-transform:uppercase;margin-bottom:6px}
 @media(max-width:860px){.about-grid{grid-template-columns:1fr!important}.portrait{max-width:420px}}
 @media(prefers-reduced-motion:reduce){.hero-video{display:none}}
+
+/* ---- Ảnh rõ nét: hiển thị trong khung nhỏ, không kéo giãn ảnh nguồn nhỏ ra toàn màn hình ---- */
+.feature-grid{grid-template-columns:repeat(3,1fr);gap:clamp(28px,3vw,44px) 22px;max-width:1500px;margin-inline:auto}
+.card,.card.wide{grid-column:auto}
+.card-img,.card.wide .card-img{aspect-ratio:3/2}
+.featured{padding-inline:var(--pad)}
+@media(max-width:1000px){.feature-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.feature-grid{grid-template-columns:1fr}}
+
+.proj-hero{height:auto;min-height:0;display:grid;grid-template-columns:1fr 1.25fr;align-items:end;gap:clamp(24px,5vw,80px);padding:clamp(110px,14vw,170px) var(--pad) clamp(28px,4vw,56px);max-width:1500px;margin:auto;overflow:visible}
+.proj-hero-in{padding:0;position:static}
+.proj-hero h1{font-size:clamp(2.4rem,5.2vw,5rem)}
+.proj-cover{margin:0;background:var(--bg2)}
+.proj-cover img{position:static;width:100%;height:auto;max-height:78vh;object-fit:contain;display:block}
+@media(max-width:900px){.proj-hero{grid-template-columns:1fr}}
+
+.gallery{display:block;columns:3;column-gap:clamp(12px,1.6vw,22px);max-width:1500px}
+.shot,.shot:nth-child(n),.shot:first-child:nth-last-child(odd){display:block;grid-column:auto;break-inside:avoid;margin-bottom:clamp(12px,1.6vw,22px);aspect-ratio:var(--ar)}
+@media(max-width:1000px){.gallery{columns:2}}
+@media(max-width:600px){.gallery{columns:1}}
+
+/* lightbox: không phóng to quá kích thước ảnh gốc */
+.lightbox img{max-width:min(94vw,var(--lbw,2000px))}

@@ -144,7 +144,7 @@ function homePage(l) {
     <a class="link-arrow" href="${workUrl(l)}">${t.allWork} ${icon.arrow}</a>
   </div>
   <div class="feature-grid">
-    ${featured.map((p, i) => projectCard(p, l, t, { size: i % 4 === 0 || i % 4 === 3 ? "wide" : "", sizes: "(min-width:760px) 46vw, 100vw" }).replace('class="card', 'class="reveal card')).join("\n")}
+    ${featured.map((p, i) => projectCard(p, l, t, {}).replace('class="card', 'class="reveal card')).join("\n")}
   </div>
 </section>
 
@@ -238,14 +238,13 @@ function detailPage(l, p, idx) {
   const gallery = p.images
     .map(
       (im, k) =>
-        `<a class="shot reveal" href="${img(p, k, true)}" data-i="${k}" style="--ar:${im.w}/${im.h}" aria-label="${esc(p.title)} ${k + 1}/${p.images.length}"><img src="${img(p, k)}" srcset="${img(p, k)} 800w, ${img(p, k, true)} ${im.w}w" sizes="${k % 5 === 0 || (k === 0 && p.images.length % 2) ? "(min-width:700px) 96vw, 100vw" : "(min-width:700px) 48vw, 100vw"}" width="${im.w}" height="${im.h}" alt="${esc(p.title)} – ${k + 1}" loading="${k < 2 ? "eager" : "lazy"}" decoding="async"></a>`
+        `<a class="shot reveal" href="${img(p, k, true)}" data-i="${k}" style="--ar:${im.w}/${im.h}" aria-label="${esc(p.title)} ${k + 1}/${p.images.length}"><img src="${img(p, k)}" srcset="${img(p, k)} 800w, ${img(p, k, true)} ${im.w}w" sizes="(min-width:1000px) 32vw, (min-width:700px) 48vw, 100vw" width="${im.w}" height="${im.h}" alt="${esc(p.title)} – ${k + 1}" loading="${k < 2 ? "eager" : "lazy"}" decoding="async"></a>`
     )
     .join("\n");
   const body = `
 <section class="proj-hero">
-  <img src="${img(p, p.cover, true)}" width="${cover.w}" height="${cover.h}" alt="${esc(p.title)}" fetchpriority="high">
-  <div class="hero-shade"></div>
   <div class="proj-hero-in"><a class="crumb" href="${workUrl(l)}">${icon.left} ${t.back}</a><p class="kicker">${catName(p.category, l)}</p><h1>${esc(p.title)}</h1></div>
+  <figure class="proj-cover"><img src="${img(p, p.cover, true)}" srcset="${img(p, p.cover)} 800w, ${img(p, p.cover, true)} ${cover.w}w" sizes="(min-width:1000px) 56vw, 100vw" width="${cover.w}" height="${cover.h}" alt="${esc(p.title)}" fetchpriority="high"></figure>
 </section>
 <section class="proj-info">
   <dl class="meta">${meta.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}<div><dt>${t.images}</dt><dd>${p.images.length}</dd></div></dl>
