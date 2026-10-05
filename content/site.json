@@ -262,6 +262,9 @@
     "en": "English",
     "ja": "日本語"
   },
-  "googleSiteVerification": "bKXI-XBtDmcCvskQOfsK5XDzLRWjCiZbL37DVtnMrkU",
+  "googleSiteVerification": [
+    "bKXI-XBtDmcCvskQOfsK5XDzLRWjCiZbL37DVtnMrkU",
+    "FBN8OWGGWUGaj7waIpb7K2PGYnJ2SrUW16N7PeDNPvM"
+  ],
   "sameAs": []
 }

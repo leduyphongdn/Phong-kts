@@ -60,7 +60,8 @@ function layout({ l, t, title, desc, path: urlPath, alts, ogImage, body, bodyCla
 <meta name="theme-color" content="#0b0b0c">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="${site.person}">
-${site.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(site.googleSiteVerification)}">` : ""}
+${[].concat(site.googleSiteVerification || []).filter(Boolean).map((v) => `<meta name="google-site-verification" content="${esc(v)}">`).join("
+")}
 <link rel="canonical" href="${canonical}">
 ${LANGS.map((x) => `<link rel="alternate" hreflang="${x}" href="${SITE_URL}${alts[x]}">`).join("\n")}
 <link rel="alternate" hreflang="x-default" href="${SITE_URL}${alts.vi}">
