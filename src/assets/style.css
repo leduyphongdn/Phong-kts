@@ -259,3 +259,15 @@ section{position:relative}
   .mega ul{display:none}
   .mega-all{margin-top:6px}
 }
+
+/* ---- chuyển ngôn ngữ VI / EN / 日本語 ---- */
+.langs{display:flex;border:1px solid var(--line)}
+.nav .langs .lang{border:0;min-width:0;padding:0 11px;font-size:.72rem;letter-spacing:.1em;justify-content:center;color:var(--muted)}
+.nav .langs .lang+.lang{border-left:1px solid var(--line)}
+.nav .langs .lang:hover{color:var(--accent);border-color:var(--line)}
+.nav .langs .lang[aria-current]{color:var(--fg);background:rgba(236,233,226,.1)}
+@media(max-width:760px){.nav .langs .lang{min-height:48px;padding:0 18px;font-size:.85rem}}
+html[lang=ja]{--serif:"Cormorant Garamond","Noto Serif JP","Yu Mincho",serif;--sans:"Manrope","Noto Sans JP","Yu Gothic",sans-serif}
+html[lang=ja] body{line-height:1.9}
+html[lang=ja] .kicker,html[lang=ja] .btn,html[lang=ja] .link-arrow,html[lang=ja] .nav,html[lang=ja] .chip{letter-spacing:.08em}
+html[lang=ja] h1,html[lang=ja] h2,html[lang=ja] h3{letter-spacing:0;line-height:1.25;font-weight:400}

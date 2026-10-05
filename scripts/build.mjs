@@ -12,7 +12,7 @@ const V = Date.now().toString(36);
 // BASE_PATH: dùng khi site nằm trong thư mục con (vd GitHub Pages: /Phong-kts). Để trống nếu chạy ở gốc tên miền.
 const BASE = (process.env.BASE_PATH || "").replace(/\/$/, "");
 // thêm BASE vào mọi đường dẫn gốc "/img/...", "/du-an/...", href="/" ... (kể cả trong srcset)
-const ROOTS = /([\s"'(,])\/(?=#|(?:img|video|assets|du-an|en|projects|favicon\.svg|404\.html|sitemap\.xml)\b|["'])/g;
+const ROOTS = /([\s"'(,])\/(?=#|(?:img|video|assets|du-an|en|projects|ja|favicon\.svg|404\.html|sitemap\.xml)\b|["'])/g;
 const rebase = (html) => (BASE ? html.replace(ROOTS, (_, c) => c + BASE + "/") : html);
 const byId = Object.fromEntries(projects.map((p) => [p.id, p]));
 const profile = JSON.parse(fs.readFileSync("content/profile.json", "utf8"));
@@ -26,7 +26,10 @@ const img = (p, i, big = false) => `/img/projects/${p.slug}/${p.images[i].src.re
 const L = {
   vi: { prefix: "", work: "du-an" },
   en: { prefix: "/en", work: "projects" },
+  ja: { prefix: "/ja", work: "projects" },
 };
+const LANGS = Object.keys(L);
+const alts = (fn) => Object.fromEntries(LANGS.map((x) => [x, fn(x)]));
 const homeUrl = (l) => `${L[l].prefix}/`;
 const workUrl = (l) => `${L[l].prefix}/${L[l].work}/`;
 const projUrl = (l, p) => `${L[l].prefix}/${L[l].work}/${p.slug}/`;
@@ -44,8 +47,7 @@ const icon = {
   close: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>`,
 };
 
-function layout({ l, t, title, desc, path: urlPath, alt, ogImage, body, bodyClass = "", jsonld = "" }) {
-  const other = l === "vi" ? "en" : "vi";
+function layout({ l, t, title, desc, path: urlPath, alts, ogImage, body, bodyClass = "", jsonld = "" }) {
   const canonical = SITE_URL + urlPath;
   const og = SITE_URL + (ogImage || HERO);
   return `<!doctype html>
@@ -57,9 +59,8 @@ function layout({ l, t, title, desc, path: urlPath, alt, ogImage, body, bodyClas
 <meta name="description" content="${esc(desc)}">
 <meta name="theme-color" content="#0b0b0c">
 <link rel="canonical" href="${canonical}">
-<link rel="alternate" hreflang="${l}" href="${canonical}">
-<link rel="alternate" hreflang="${other}" href="${SITE_URL}${alt}">
-<link rel="alternate" hreflang="x-default" href="${SITE_URL}${l === "vi" ? urlPath : alt}">
+${LANGS.map((x) => `<link rel="alternate" hreflang="${x}" href="${SITE_URL}${alts[x]}">`).join("\n")}
+<link rel="alternate" hreflang="x-default" href="${SITE_URL}${alts.vi}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${site.brand}">
 <meta property="og:title" content="${esc(title)}">
@@ -70,15 +71,15 @@ function layout({ l, t, title, desc, path: urlPath, alt, ogImage, body, bodyClas
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css?v=${V}">
 ${jsonld}
 </head>
 <body class="${bodyClass}">
-<a class="skip" href="#main">${l === "vi" ? "Bỏ qua điều hướng" : "Skip to content"}</a>
+<a class="skip" href="#main">${t.skip}</a>
 <header class="site-header" id="header">
   <a class="brand" href="${homeUrl(l)}" aria-label="${site.brand}">PHONG<span> ARCHITECT</span></a>
-  <nav class="nav" aria-label="${l === "vi" ? "Điều hướng chính" : "Main"}" id="nav">
+  <nav class="nav" aria-label="${t.navLabel}" id="nav">
     <div class="has-menu" id="hasMenu">
       <a href="${workUrl(l)}" aria-haspopup="true" aria-expanded="false" id="workLink">${t.navWork}<svg class="caret" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
       <div class="mega" role="region" aria-label="${t.navWork}">
@@ -90,7 +91,7 @@ ${jsonld}
     </div>
     <a href="${homeUrl(l)}#about">${t.navAbout}</a>
     <a href="${homeUrl(l)}#contact">${t.navContact}</a>
-    <a class="lang" href="${alt}" hreflang="${other}" lang="${other}" aria-label="${t.switchLabel}">${t.switch}</a>
+    <div class="langs" role="group" aria-label="Language">${LANGS.map((x) => (x === l ? `<a class="lang" href="${alts[x]}" lang="${x}" aria-current="true">${site.langLabels[x]}</a>` : `<a class="lang" href="${alts[x]}" hreflang="${x}" lang="${x}" title="${site.langNames[x]}">${site.langLabels[x]}</a>`)).join("")}</div>
   </nav>
   <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
 </header>
@@ -206,7 +207,7 @@ function homePage(l) {
     founder: { "@type": "Person", name: site.person, jobTitle: t.aboutRole },
     image: SITE_URL + HERO,
   })}</script>`;
-  return layout({ l, t, title: `${site.brand} – ${site.person}`, desc: t.metaHome, path: homeUrl(l), alt: homeUrl(l === "vi" ? "en" : "vi"), body, bodyClass: "home", jsonld: ld });
+  return layout({ l, t, title: `${site.brand} – ${site.person}`, desc: t.metaHome, path: homeUrl(l), alts: alts(homeUrl), body, bodyClass: "home", jsonld: ld });
 }
 
 function workPage(l) {
@@ -224,7 +225,7 @@ function workPage(l) {
 <section class="grid-wrap"><div class="work-grid" id="work-grid">
   ${projects.map((p) => projectCard(p, l, t)).join("\n")}
 </div></section>`;
-  return layout({ l, t, title: `${t.projectsTitle} – ${site.brand}`, desc: t.metaProjects, path: workUrl(l), alt: workUrl(l === "vi" ? "en" : "vi"), body, bodyClass: "work", ogImage: HERO });
+  return layout({ l, t, title: `${t.projectsTitle} – ${site.brand}`, desc: t.metaProjects, path: workUrl(l), alts: alts(workUrl), body, bodyClass: "work", ogImage: HERO });
 }
 
 function detailPage(l, p, idx) {
@@ -281,13 +282,13 @@ ${gallery}
     image: SITE_URL + img(p, p.cover, true),
   })}</script>`;
   const desc = summary || `${p.title} – ${catName(p.category, l)}. ${site.brand}.`;
-  return layout({ l, t, title: `${p.title} – ${site.brand}`, desc, path: projUrl(l, p), alt: projUrl(l === "vi" ? "en" : "vi", p), body, bodyClass: "detail", ogImage: img(p, p.cover, true), jsonld: ld });
+  return layout({ l, t, title: `${p.title} – ${site.brand}`, desc, path: projUrl(l, p), alts: alts((x) => projUrl(x, p)), body, bodyClass: "detail", ogImage: img(p, p.cover, true), jsonld: ld });
 }
 
 function notFound() {
   const t = site.i18n.vi;
   const body = `<section class="page-head nf"><p class="kicker">404</p><h1>${t.notFoundTitle}</h1><p class="lead">${t.notFoundText}</p><a class="btn" href="/">${t.home} ${icon.arrow}</a></section>`;
-  return layout({ l: "vi", t, title: `404 – ${site.brand}`, desc: t.notFoundText, path: "/404.html", alt: "/en/", body });
+  return layout({ l: "vi", t, title: `404 – ${site.brand}`, desc: t.notFoundText, path: "/404.html", alts: alts(homeUrl), body });
 }
 
 // ---------- build ----------
@@ -296,7 +297,7 @@ fs.mkdirSync(DIST, { recursive: true });
 fs.cpSync("public", DIST, { recursive: true });
 fs.cpSync("src/assets", path.join(DIST, "assets"), { recursive: true });
 
-for (const l of ["vi", "en"]) {
+for (const l of LANGS) {
   write(path.join(L[l].prefix, "index.html"), homePage(l));
   write(path.join(L[l].prefix, L[l].work, "index.html"), workPage(l));
   projects.forEach((p, i) => write(path.join(L[l].prefix, L[l].work, p.slug, "index.html"), detailPage(l, p, i)));
@@ -309,7 +310,7 @@ if (BASE) {
 }
 
 const urls = [];
-for (const l of ["vi", "en"]) {
+for (const l of LANGS) {
   urls.push(homeUrl(l), workUrl(l), ...projects.map((p) => projUrl(l, p)));
 }
 write(

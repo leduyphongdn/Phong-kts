@@ -8,37 +8,45 @@
   "categories": {
     "architecture": {
       "vi": "Kiến trúc",
-      "en": "Architecture"
+      "en": "Architecture",
+      "ja": "建築"
     },
     "interior": {
       "vi": "Nội thất & Cảnh quan",
-      "en": "Interior & Landscape"
+      "en": "Interior & Landscape",
+      "ja": "インテリア＆ランドスケープ"
     },
     "onsen": {
       "vi": "Onsen",
-      "en": "Onsen"
+      "en": "Onsen",
+      "ja": "温泉"
     },
     "planning": {
       "vi": "Quy hoạch",
-      "en": "Planning"
+      "en": "Planning",
+      "ja": "マスタープラン"
     }
   },
   "categoryBlurb": {
     "architecture": {
       "vi": "Tòa nhà, khách sạn và công trình công cộng.",
-      "en": "Towers, hotels and public buildings."
+      "en": "Towers, hotels and public buildings.",
+      "ja": "タワー、ホテル、公共建築。"
     },
     "interior": {
       "vi": "Không gian bên trong và cảnh quan ngoài trời.",
-      "en": "Interiors and the landscapes around them."
+      "en": "Interiors and the landscapes around them.",
+      "ja": "室内空間と、それを取り巻くランドスケープ。"
     },
     "onsen": {
       "vi": "Nghỉ dưỡng suối khoáng theo tinh thần Nhật Bản.",
-      "en": "Hot-spring retreats in the Japanese spirit."
+      "en": "Hot-spring retreats in the Japanese spirit.",
+      "ja": "日本の精神を映す温泉リゾート。"
     },
     "planning": {
       "vi": "Quy hoạch khu du lịch và đô thị.",
-      "en": "Resort and urban masterplans."
+      "en": "Resort and urban masterplans.",
+      "ja": "リゾートと都市のマスタープラン。"
     }
   },
   "i18n": {
@@ -102,7 +110,9 @@
       "f1": "Design Manager",
       "f2": "Đà Nẵng",
       "f3": "Onsen · Resort · Kiến trúc",
-      "address": "Địa chỉ"
+      "address": "Địa chỉ",
+      "skip": "Bỏ qua điều hướng",
+      "navLabel": "Điều hướng chính"
     },
     "en": {
       "lang": "en",
@@ -164,14 +174,89 @@
       "f1": "Design Manager",
       "f2": "Da Nang",
       "f3": "Onsen · Resort · Architecture",
-      "address": "Address"
+      "address": "Address",
+      "skip": "Skip to content",
+      "navLabel": "Main"
+    },
+    "ja": {
+      "lang": "ja",
+      "htmlLang": "ja",
+      "navWork": "プロジェクト",
+      "navAbout": "プロフィール",
+      "navContact": "お問い合わせ",
+      "heroKicker": "建築家 · リゾート＆温泉建築",
+      "heroTitle": "<em>人が憩う場所</em>のための建築。",
+      "heroCta": "プロジェクトを見る",
+      "scroll": "スクロール",
+      "introKicker": "設計思想",
+      "introText": "すべての建築は、風景と光、そしてそこで暮らす人々のリズムから始まります。静けさと精度を備え、その土地に根ざしたリゾート空間を設計します。",
+      "workKicker": "セレクション",
+      "workTitle": "代表プロジェクト",
+      "allWork": "すべてのプロジェクト",
+      "disciplinesKicker": "分野",
+      "disciplinesTitle": "4つの設計分野",
+      "projectsCount": "プロジェクト",
+      "aboutKicker": "プロフィール",
+      "aboutTitle": "建築家 レー・ジー・フォン",
+      "aboutRole": "設計部長 · ダナン事務所長 – Raymond Architectural Design Office",
+      "lead": "日本の設計精神、すなわち簡素さ、自然への敬意、細部への配慮を追求する建築家。",
+      "aboutP1": "現在、Raymond Architectural Design Officeにて設計部長とダナン事務所長を務めています。リゾート、温泉、建築、都市計画、インテリア、ランドスケープなど、ベトナム各地のプロジェクトに携わっています。",
+      "aboutP2": "良い建築は、地形や気候、そしてそこで暮らす人々の声に耳を傾けることから始まると考えています。最初のアイデアから竣工まで、プロジェクトに寄り添います。",
+      "contactKicker": "お問い合わせ",
+      "contactTitle": "プロジェクトについて、お話ししましょう。",
+      "contactText": "敷地、規模、ご要望を簡単にお知らせください。速やかにご返信いたします。",
+      "call": "電話",
+      "write": "メール",
+      "projectsTitle": "プロジェクト",
+      "projectsLead": "建築、インテリア、温泉、マスタープランの実績をご覧いただけます。",
+      "filterAll": "すべて",
+      "back": "すべてのプロジェクト",
+      "next": "次のプロジェクト",
+      "prev": "前のプロジェクト",
+      "category": "分野",
+      "location": "所在地",
+      "year": "年",
+      "client": "施主",
+      "area": "規模",
+      "role": "役割",
+      "images": "枚の画像",
+      "credit": "Raymond Architectural Design Office にて担当。",
+      "notFoundTitle": "ページが見つかりません",
+      "notFoundText": "お探しのページは存在しないか、移動した可能性があります。",
+      "home": "ホームへ戻る",
+      "close": "閉じる",
+      "prevImg": "前の画像",
+      "nextImg": "次の画像",
+      "rights": "無断転載を禁じます。",
+      "metaHome": "Phong Architect – 建築家 レー・ジー・フォン。リゾート建築、温泉、インテリア、ランドスケープ、マスタープラン。",
+      "metaProjects": "建築家 レー・ジー・フォンによる建築、インテリア、温泉、マスタープランのプロジェクト集。",
+      "factRole": "役職",
+      "factBase": "事務所",
+      "factFocus": "専門",
+      "f1": "Design Manager（設計部長）",
+      "f2": "ダナン",
+      "f3": "温泉 · リゾート · 建築",
+      "address": "住所",
+      "skip": "メインコンテンツへ移動",
+      "navLabel": "メインナビゲーション"
     }
   },
   "address": "Tầng 11, 218 Bạch Đằng, Phước Ninh, Hải Châu, Đà Nẵng",
   "roles": {
     "vi": "Trưởng phòng Thiết kế · Trưởng văn phòng Đà Nẵng – Raymond Architectural Design Office",
-    "en": "Head of Design · Chief of Da Nang Office – Raymond Architectural Design Office"
+    "en": "Head of Design · Chief of Da Nang Office – Raymond Architectural Design Office",
+    "ja": "設計部長 · ダナン事務所長 – Raymond Architectural Design Office"
   },
   "kana": "レー ジー フォン",
-  "roleJp": "設計部長 · ダナン事務所長"
+  "roleJp": "設計部長 · ダナン事務所長",
+  "langLabels": {
+    "vi": "VI",
+    "en": "EN",
+    "ja": "日本語"
+  },
+  "langNames": {
+    "vi": "Tiếng Việt",
+    "en": "English",
+    "ja": "日本語"
+  }
 }
