@@ -143,6 +143,18 @@ function homePage(l) {
   </div>
 </section>
 
+<section class="disciplines" aria-labelledby="disc-title">
+  <div class="section-head reveal"><div><p class="kicker">${t.disciplinesKicker}</p><h2 id="disc-title">${t.disciplinesTitle}</h2></div><a class="link-arrow" href="${workUrl(l)}">${t.allWork} ${icon.arrow}</a></div>
+  <div class="disc-grid">
+    ${catKeys
+      .map((c) => {
+        const cover = projects.find((p) => p.category === c && p.featured) || projects.find((p) => p.category === c);
+        return `<a class="disc reveal" href="${workUrl(l)}?c=${c}"><img src="${img(cover, cover.cover)}" alt="" loading="lazy" decoding="async" width="${cover.images[cover.cover].w}" height="${cover.images[cover.cover].h}"><div class="disc-in"><span class="count">${counts[c]} ${t.projectsCount}</span><h3>${catName(c, l)}</h3><p>${site.categoryBlurb[c][l]}</p></div></a>`;
+      })
+      .join("")}
+  </div>
+</section>
+
 <section class="about" id="about" aria-labelledby="about-title">
   <div class="about-grid">
     <figure class="portrait reveal"><img src="/img/portrait.webp" width="${profile.portrait.w}" height="${profile.portrait.h}" alt="${esc(site.person)}" loading="lazy" decoding="async"></figure>

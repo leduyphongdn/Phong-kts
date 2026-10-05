@@ -45,6 +45,76 @@
         "src": "06.webp",
         "w": 830,
         "h": 448
+      },
+      {
+        "src": "07.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "08.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "09.webp",
+        "w": 2000,
+        "h": 1334
+      },
+      {
+        "src": "10.webp",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "11.webp",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "12.webp",
+        "w": 2000,
+        "h": 982
+      },
+      {
+        "src": "13.webp",
+        "w": 1024,
+        "h": 576
+      },
+      {
+        "src": "14.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "15.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "16.webp",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "17.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "18.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "19.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "20.webp",
+        "w": 1920,
+        "h": 1080
       }
     ]
   },
@@ -99,6 +169,131 @@
         "src": "07.webp",
         "w": 871,
         "h": 682
+      },
+      {
+        "src": "08.webp",
+        "w": 1024,
+        "h": 683
+      },
+      {
+        "src": "09.webp",
+        "w": 1024,
+        "h": 767
+      },
+      {
+        "src": "10.webp",
+        "w": 1201,
+        "h": 900
+      },
+      {
+        "src": "11.webp",
+        "w": 1280,
+        "h": 853
+      },
+      {
+        "src": "12.webp",
+        "w": 1024,
+        "h": 683
+      },
+      {
+        "src": "13.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "14.webp",
+        "w": 1200,
+        "h": 899
+      },
+      {
+        "src": "15.webp",
+        "w": 1200,
+        "h": 807
+      },
+      {
+        "src": "16.webp",
+        "w": 1200,
+        "h": 807
+      },
+      {
+        "src": "17.webp",
+        "w": 1200,
+        "h": 807
+      },
+      {
+        "src": "18.webp",
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "src": "19.webp",
+        "w": 1024,
+        "h": 1024
+      },
+      {
+        "src": "20.webp",
+        "w": 1024,
+        "h": 683
+      },
+      {
+        "src": "21.webp",
+        "w": 1024,
+        "h": 768
+      },
+      {
+        "src": "22.webp",
+        "w": 1024,
+        "h": 683
+      },
+      {
+        "src": "23.webp",
+        "w": 1024,
+        "h": 683
+      },
+      {
+        "src": "24.webp",
+        "w": 1200,
+        "h": 675
+      },
+      {
+        "src": "25.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "26.webp",
+        "w": 1024,
+        "h": 683
+      },
+      {
+        "src": "27.webp",
+        "w": 1024,
+        "h": 767
+      },
+      {
+        "src": "28.webp",
+        "w": 1024,
+        "h": 683
+      },
+      {
+        "src": "29.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "30.webp",
+        "w": 1500,
+        "h": 1124
+      },
+      {
+        "src": "31.webp",
+        "w": 1500,
+        "h": 1124
+      },
+      {
+        "src": "32.webp",
+        "w": 800,
+        "h": 450
       }
     ]
   },
@@ -143,6 +338,151 @@
         "src": "05.webp",
         "w": 1024,
         "h": 543
+      },
+      {
+        "src": "06.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "07.webp",
+        "w": 1500,
+        "h": 1125
+      },
+      {
+        "src": "08.webp",
+        "w": 500,
+        "h": 333
+      },
+      {
+        "src": "09.webp",
+        "w": 1830,
+        "h": 895
+      },
+      {
+        "src": "10.webp",
+        "w": 2000,
+        "h": 1333
+      },
+      {
+        "src": "11.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "12.webp",
+        "w": 1024,
+        "h": 682
+      },
+      {
+        "src": "13.webp",
+        "w": 1050,
+        "h": 700
+      },
+      {
+        "src": "14.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "15.webp",
+        "w": 1500,
+        "h": 1103
+      },
+      {
+        "src": "16.webp",
+        "w": 1600,
+        "h": 1067
+      },
+      {
+        "src": "17.webp",
+        "w": 2000,
+        "h": 1334
+      },
+      {
+        "src": "18.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "19.webp",
+        "w": 699,
+        "h": 490
+      },
+      {
+        "src": "20.webp",
+        "w": 497,
+        "h": 366
+      },
+      {
+        "src": "21.webp",
+        "w": 996,
+        "h": 621
+      },
+      {
+        "src": "22.webp",
+        "w": 999,
+        "h": 612
+      },
+      {
+        "src": "23.webp",
+        "w": 1224,
+        "h": 618
+      },
+      {
+        "src": "24.webp",
+        "w": 1008,
+        "h": 621
+      },
+      {
+        "src": "25.webp",
+        "w": 1003,
+        "h": 616
+      },
+      {
+        "src": "26.webp",
+        "w": 2000,
+        "h": 1220
+      },
+      {
+        "src": "27.webp",
+        "w": 2000,
+        "h": 1486
+      },
+      {
+        "src": "28.webp",
+        "w": 2000,
+        "h": 1304
+      },
+      {
+        "src": "29.webp",
+        "w": 2000,
+        "h": 930
+      },
+      {
+        "src": "30.webp",
+        "w": 2000,
+        "h": 1377
+      },
+      {
+        "src": "31.webp",
+        "w": 2000,
+        "h": 1486
+      },
+      {
+        "src": "32.webp",
+        "w": 2000,
+        "h": 1034
+      },
+      {
+        "src": "33.webp",
+        "w": 2000,
+        "h": 1034
+      },
+      {
+        "src": "34.webp",
+        "w": 2000,
+        "h": 1316
       }
     ]
   },
@@ -187,6 +527,46 @@
         "src": "05.webp",
         "w": 810,
         "h": 1252
+      },
+      {
+        "src": "06.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "07.webp",
+        "w": 1200,
+        "h": 800
+      },
+      {
+        "src": "08.webp",
+        "w": 2000,
+        "h": 1499
+      },
+      {
+        "src": "09.webp",
+        "w": 1430,
+        "h": 955
+      },
+      {
+        "src": "10.webp",
+        "w": 1429,
+        "h": 953
+      },
+      {
+        "src": "11.webp",
+        "w": 1188,
+        "h": 788
+      },
+      {
+        "src": "12.webp",
+        "w": 1189,
+        "h": 789
+      },
+      {
+        "src": "13.webp",
+        "w": 1174,
+        "h": 777
       }
     ]
   },
@@ -236,6 +616,96 @@
         "src": "06.webp",
         "w": 920,
         "h": 573
+      },
+      {
+        "src": "07.webp",
+        "w": 2000,
+        "h": 2359
+      },
+      {
+        "src": "08.webp",
+        "w": 2000,
+        "h": 1240
+      },
+      {
+        "src": "09.webp",
+        "w": 2000,
+        "h": 1667
+      },
+      {
+        "src": "10.webp",
+        "w": 2000,
+        "h": 1238
+      },
+      {
+        "src": "11.webp",
+        "w": 2000,
+        "h": 1238
+      },
+      {
+        "src": "12.webp",
+        "w": 2000,
+        "h": 1238
+      },
+      {
+        "src": "13.webp",
+        "w": 2000,
+        "h": 1240
+      },
+      {
+        "src": "14.webp",
+        "w": 2000,
+        "h": 1238
+      },
+      {
+        "src": "15.webp",
+        "w": 2000,
+        "h": 1426
+      },
+      {
+        "src": "16.webp",
+        "w": 2000,
+        "h": 1333
+      },
+      {
+        "src": "17.webp",
+        "w": 2000,
+        "h": 1238
+      },
+      {
+        "src": "18.webp",
+        "w": 2000,
+        "h": 1238
+      },
+      {
+        "src": "19.webp",
+        "w": 2000,
+        "h": 1421
+      },
+      {
+        "src": "20.webp",
+        "w": 2000,
+        "h": 1238
+      },
+      {
+        "src": "21.webp",
+        "w": 2000,
+        "h": 1238
+      },
+      {
+        "src": "22.webp",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "23.webp",
+        "w": 2000,
+        "h": 2000
+      },
+      {
+        "src": "24.webp",
+        "w": 2000,
+        "h": 2000
       }
     ]
   },
@@ -285,6 +755,41 @@
         "src": "06.webp",
         "w": 908,
         "h": 490
+      },
+      {
+        "src": "07.webp",
+        "w": 669,
+        "h": 418
+      },
+      {
+        "src": "08.webp",
+        "w": 1144,
+        "h": 895
+      },
+      {
+        "src": "09.webp",
+        "w": 672,
+        "h": 464
+      },
+      {
+        "src": "10.webp",
+        "w": 1007,
+        "h": 546
+      },
+      {
+        "src": "11.webp",
+        "w": 338,
+        "h": 546
+      },
+      {
+        "src": "12.webp",
+        "w": 725,
+        "h": 385
+      },
+      {
+        "src": "13.webp",
+        "w": 619,
+        "h": 385
       }
     ]
   },
@@ -339,6 +844,56 @@
         "src": "07.webp",
         "w": 1300,
         "h": 628
+      },
+      {
+        "src": "08.webp",
+        "w": 2000,
+        "h": 1127
+      },
+      {
+        "src": "09.webp",
+        "w": 2000,
+        "h": 1184
+      },
+      {
+        "src": "10.webp",
+        "w": 691,
+        "h": 414
+      },
+      {
+        "src": "11.webp",
+        "w": 1048,
+        "h": 682
+      },
+      {
+        "src": "12.webp",
+        "w": 1980,
+        "h": 1114
+      },
+      {
+        "src": "13.webp",
+        "w": 1980,
+        "h": 1114
+      },
+      {
+        "src": "14.webp",
+        "w": 1980,
+        "h": 1114
+      },
+      {
+        "src": "15.webp",
+        "w": 1980,
+        "h": 1114
+      },
+      {
+        "src": "16.webp",
+        "w": 1980,
+        "h": 1114
+      },
+      {
+        "src": "17.webp",
+        "w": 1980,
+        "h": 1114
       }
     ]
   },
@@ -383,6 +938,36 @@
         "src": "05.webp",
         "w": 983,
         "h": 640
+      },
+      {
+        "src": "06.webp",
+        "w": 906,
+        "h": 680
+      },
+      {
+        "src": "07.webp",
+        "w": 1010,
+        "h": 1135
+      },
+      {
+        "src": "08.webp",
+        "w": 1141,
+        "h": 897
+      },
+      {
+        "src": "09.webp",
+        "w": 670,
+        "h": 466
+      },
+      {
+        "src": "10.webp",
+        "w": 670,
+        "h": 415
+      },
+      {
+        "src": "11.webp",
+        "w": 669,
+        "h": 418
       }
     ]
   },
@@ -432,6 +1017,1446 @@
         "src": "06.webp",
         "w": 1300,
         "h": 606
+      }
+    ]
+  },
+  {
+    "id": "sala-quy-nhon-beach-hotel",
+    "slug": "sala-quy-nhon-beach-hotel",
+    "category": "architecture",
+    "featured": false,
+    "title": "Sala Quy Nhơn Beach Hotel",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1479,
+        "h": 942
+      },
+      {
+        "src": "02.webp",
+        "w": 975,
+        "h": 639
+      },
+      {
+        "src": "03.webp",
+        "w": 655,
+        "h": 756
+      },
+      {
+        "src": "04.webp",
+        "w": 1107,
+        "h": 748
+      },
+      {
+        "src": "05.webp",
+        "w": 1130,
+        "h": 719
+      },
+      {
+        "src": "06.webp",
+        "w": 640,
+        "h": 749
+      }
+    ]
+  },
+  {
+    "id": "landmark-da-nang",
+    "slug": "landmark-da-nang",
+    "category": "architecture",
+    "featured": false,
+    "title": "Landmark Đà Nẵng",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 900,
+        "h": 562
+      },
+      {
+        "src": "02.webp",
+        "w": 640,
+        "h": 896
+      },
+      {
+        "src": "03.webp",
+        "w": 1280,
+        "h": 720
+      },
+      {
+        "src": "04.webp",
+        "w": 960,
+        "h": 1534
+      },
+      {
+        "src": "05.webp",
+        "w": 676,
+        "h": 380
+      }
+    ]
+  },
+  {
+    "id": "shizen-8000",
+    "slug": "shizen-8000",
+    "category": "architecture",
+    "featured": false,
+    "title": "Shizen 8000",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 992,
+        "h": 697
+      },
+      {
+        "src": "02.webp",
+        "w": 1145,
+        "h": 643
+      },
+      {
+        "src": "03.webp",
+        "w": 1145,
+        "h": 697
+      },
+      {
+        "src": "04.webp",
+        "w": 1076,
+        "h": 752
+      },
+      {
+        "src": "05.webp",
+        "w": 1156,
+        "h": 705
+      },
+      {
+        "src": "06.webp",
+        "w": 1250,
+        "h": 664
+      }
+    ]
+  },
+  {
+    "id": "vinaconex-diamond",
+    "slug": "vinaconex-diamond",
+    "category": "architecture",
+    "featured": false,
+    "title": "Vinaconex Diamond",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "02.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "03.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "04.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "05.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "06.webp",
+        "w": 800,
+        "h": 770
+      },
+      {
+        "src": "07.webp",
+        "w": 655,
+        "h": 782
+      },
+      {
+        "src": "08.webp",
+        "w": 411,
+        "h": 823
+      }
+    ]
+  },
+  {
+    "id": "viettel",
+    "slug": "viettel",
+    "category": "architecture",
+    "featured": false,
+    "title": "Viettel",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 776,
+        "h": 818
+      },
+      {
+        "src": "02.webp",
+        "w": 611,
+        "h": 692
+      },
+      {
+        "src": "03.webp",
+        "w": 742,
+        "h": 1185
+      }
+    ]
+  },
+  {
+    "id": "thospital",
+    "slug": "thospital",
+    "category": "architecture",
+    "featured": false,
+    "title": "T'Hospital",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 917,
+        "h": 964
+      },
+      {
+        "src": "02.webp",
+        "w": 1262,
+        "h": 666
+      },
+      {
+        "src": "03.webp",
+        "w": 915,
+        "h": 440
+      }
+    ]
+  },
+  {
+    "id": "sala-apartment",
+    "slug": "sala-apartment",
+    "category": "architecture",
+    "featured": false,
+    "title": "Sala Apartment",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1054,
+        "h": 595
+      },
+      {
+        "src": "02.webp",
+        "w": 1091,
+        "h": 1417
+      },
+      {
+        "src": "03.webp",
+        "w": 669,
+        "h": 433
+      },
+      {
+        "src": "04.webp",
+        "w": 618,
+        "h": 802
+      },
+      {
+        "src": "05.webp",
+        "w": 1074,
+        "h": 694
+      },
+      {
+        "src": "06.webp",
+        "w": 1145,
+        "h": 634
+      }
+    ]
+  },
+  {
+    "id": "center-point-building",
+    "slug": "center-point-building",
+    "category": "architecture",
+    "featured": false,
+    "title": "Center Point Building",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1410,
+        "h": 870
+      },
+      {
+        "src": "02.webp",
+        "w": 814,
+        "h": 1157
+      }
+    ]
+  },
+  {
+    "id": "dinco-building",
+    "slug": "dinco-building",
+    "category": "architecture",
+    "featured": false,
+    "title": "Dinco Building",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1178,
+        "h": 728
+      },
+      {
+        "src": "02.webp",
+        "w": 1099,
+        "h": 659
+      },
+      {
+        "src": "03.webp",
+        "w": 1099,
+        "h": 682
+      }
+    ]
+  },
+  {
+    "id": "dong-tac-fishing-port",
+    "slug": "dong-tac-fishing-port",
+    "category": "architecture",
+    "featured": false,
+    "title": "Đồng Tác Fishing Port",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1086,
+        "h": 1535
+      },
+      {
+        "src": "02.webp",
+        "w": 1043,
+        "h": 646
+      }
+    ]
+  },
+  {
+    "id": "foreign-trade-uni",
+    "slug": "foreign-trade-uni",
+    "category": "architecture",
+    "featured": false,
+    "title": "Foreign Trade University",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 886,
+        "h": 498
+      },
+      {
+        "src": "02.webp",
+        "w": 886,
+        "h": 498
+      },
+      {
+        "src": "03.webp",
+        "w": 886,
+        "h": 498
+      },
+      {
+        "src": "04.webp",
+        "w": 1250,
+        "h": 328
+      },
+      {
+        "src": "05.webp",
+        "w": 698,
+        "h": 366
+      }
+    ]
+  },
+  {
+    "id": "hai-an-resort",
+    "slug": "hai-an-resort",
+    "category": "architecture",
+    "featured": false,
+    "title": "Hải An Resort",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1080,
+        "h": 645
+      },
+      {
+        "src": "02.webp",
+        "w": 1074,
+        "h": 623
+      },
+      {
+        "src": "03.webp",
+        "w": 1049,
+        "h": 651
+      },
+      {
+        "src": "04.webp",
+        "w": 1071,
+        "h": 645
+      },
+      {
+        "src": "05.webp",
+        "w": 1150,
+        "h": 661
+      }
+    ]
+  },
+  {
+    "id": "lavida-building",
+    "slug": "lavida-building",
+    "category": "architecture",
+    "featured": false,
+    "title": "Lavida Building",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1043,
+        "h": 480
+      },
+      {
+        "src": "02.webp",
+        "w": 1093,
+        "h": 671
+      },
+      {
+        "src": "03.webp",
+        "w": 1093,
+        "h": 677
+      }
+    ]
+  },
+  {
+    "id": "mai-market",
+    "slug": "mai-market",
+    "category": "architecture",
+    "featured": false,
+    "title": "Mai Market",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1350,
+        "h": 773
+      },
+      {
+        "src": "02.webp",
+        "w": 834,
+        "h": 1116
+      },
+      {
+        "src": "03.webp",
+        "w": 1238,
+        "h": 710
+      },
+      {
+        "src": "04.webp",
+        "w": 607,
+        "h": 800
+      }
+    ]
+  },
+  {
+    "id": "nam-trung-yen-onsen-spa",
+    "slug": "nam-trung-yen-onsen-spa",
+    "category": "architecture",
+    "featured": false,
+    "title": "Nam Trung Yên Onsen – Spa",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1318,
+        "h": 1534
+      }
+    ]
+  },
+  {
+    "id": "nhan-tong",
+    "slug": "nhan-tong",
+    "category": "architecture",
+    "featured": false,
+    "title": "Nhân Tông",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1197,
+        "h": 740
+      },
+      {
+        "src": "02.webp",
+        "w": 1016,
+        "h": 643
+      }
+    ]
+  },
+  {
+    "id": "sala-landmark-competition",
+    "slug": "sala-landmark-competition",
+    "category": "architecture",
+    "featured": false,
+    "title": "Sala Landmark Competition",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 899,
+        "h": 846
+      },
+      {
+        "src": "02.webp",
+        "w": 1219,
+        "h": 1414
+      }
+    ]
+  },
+  {
+    "id": "van-lang",
+    "slug": "van-lang",
+    "category": "architecture",
+    "featured": false,
+    "title": "Văn Lang",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1114,
+        "h": 589
+      },
+      {
+        "src": "02.webp",
+        "w": 1032,
+        "h": 643
+      },
+      {
+        "src": "03.webp",
+        "w": 1032,
+        "h": 589
+      }
+    ]
+  },
+  {
+    "id": "cultural-park-of-buddhas-stories",
+    "slug": "cultural-park-of-buddhas-stories",
+    "category": "interior",
+    "featured": false,
+    "title": "Cultural Park of Buddha’s Stories",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 847,
+        "h": 735
+      },
+      {
+        "src": "02.webp",
+        "w": 549,
+        "h": 535
+      },
+      {
+        "src": "03.webp",
+        "w": 1201,
+        "h": 668
+      },
+      {
+        "src": "04.webp",
+        "w": 534,
+        "h": 749
+      }
+    ]
+  },
+  {
+    "id": "hoa-binh-minh",
+    "slug": "hoa-binh-minh",
+    "category": "interior",
+    "featured": false,
+    "title": "Hòa Bình Minh",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "02.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "03.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "04.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "05.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "06.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "07.webp",
+        "w": 2000,
+        "h": 1125
+      },
+      {
+        "src": "08.webp",
+        "w": 1594,
+        "h": 546
+      },
+      {
+        "src": "09.webp",
+        "w": 1594,
+        "h": 897
+      },
+      {
+        "src": "10.webp",
+        "w": 1594,
+        "h": 897
+      },
+      {
+        "src": "11.webp",
+        "w": 1594,
+        "h": 904
+      },
+      {
+        "src": "12.webp",
+        "w": 1888,
+        "h": 1042
+      },
+      {
+        "src": "13.webp",
+        "w": 1888,
+        "h": 1042
+      },
+      {
+        "src": "14.webp",
+        "w": 1888,
+        "h": 1042
+      },
+      {
+        "src": "15.webp",
+        "w": 1592,
+        "h": 901
+      },
+      {
+        "src": "16.webp",
+        "w": 1591,
+        "h": 896
+      }
+    ]
+  },
+  {
+    "id": "shizen",
+    "slug": "shizen",
+    "category": "interior",
+    "featured": false,
+    "title": "Shizen",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1083,
+        "h": 465
+      },
+      {
+        "src": "02.webp",
+        "w": 933,
+        "h": 621
+      },
+      {
+        "src": "03.webp",
+        "w": 1053,
+        "h": 696
+      },
+      {
+        "src": "04.webp",
+        "w": 1114,
+        "h": 676
+      },
+      {
+        "src": "05.webp",
+        "w": 857,
+        "h": 701
+      }
+    ]
+  },
+  {
+    "id": "amerys-phu-quoc",
+    "slug": "amerys-phu-quoc",
+    "category": "onsen",
+    "featured": false,
+    "title": "Amérys Phú Quốc",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1824,
+        "h": 2336
+      },
+      {
+        "src": "02.webp",
+        "w": 1728,
+        "h": 2336
+      },
+      {
+        "src": "03.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "04.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "05.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "06.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "07.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "08.webp",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "src": "09.webp",
+        "w": 1540,
+        "h": 1920
+      }
+    ]
+  },
+  {
+    "id": "cultural-park-of-buddhas-stories-2",
+    "slug": "cultural-park-of-buddhas-stories-2",
+    "category": "onsen",
+    "featured": false,
+    "title": "Cultural Park of Buddha’s Stories",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 949,
+        "h": 823
+      },
+      {
+        "src": "02.webp",
+        "w": 637,
+        "h": 611
+      },
+      {
+        "src": "03.webp",
+        "w": 637,
+        "h": 353
+      },
+      {
+        "src": "04.webp",
+        "w": 665,
+        "h": 929
+      }
+    ]
+  },
+  {
+    "id": "lac-thuy-station",
+    "slug": "lac-thuy-station",
+    "category": "onsen",
+    "featured": false,
+    "title": "Lạc Thủy Station",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1012,
+        "h": 674
+      },
+      {
+        "src": "02.webp",
+        "w": 832,
+        "h": 555
+      },
+      {
+        "src": "03.webp",
+        "w": 675,
+        "h": 674
+      },
+      {
+        "src": "04.webp",
+        "w": 484,
+        "h": 483
+      },
+      {
+        "src": "05.webp",
+        "w": 1370,
+        "h": 771
+      },
+      {
+        "src": "06.webp",
+        "w": 748,
+        "h": 479
+      }
+    ]
+  },
+  {
+    "id": "quang-binh-onsen-resort",
+    "slug": "quang-binh-onsen-resort",
+    "category": "onsen",
+    "featured": false,
+    "title": "Quảng Bình Onsen Resort",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 832,
+        "h": 753
+      },
+      {
+        "src": "02.webp",
+        "w": 914,
+        "h": 564
+      }
+    ]
+  },
+  {
+    "id": "shizen-home",
+    "slug": "shizen-home",
+    "category": "onsen",
+    "featured": false,
+    "title": "Shizen Home",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1012,
+        "h": 674
+      },
+      {
+        "src": "02.webp",
+        "w": 832,
+        "h": 555
+      },
+      {
+        "src": "03.webp",
+        "w": 675,
+        "h": 674
+      },
+      {
+        "src": "04.webp",
+        "w": 484,
+        "h": 483
+      },
+      {
+        "src": "05.webp",
+        "w": 1012,
+        "h": 674
+      },
+      {
+        "src": "06.webp",
+        "w": 832,
+        "h": 555
+      },
+      {
+        "src": "07.webp",
+        "w": 675,
+        "h": 674
+      },
+      {
+        "src": "08.webp",
+        "w": 484,
+        "h": 483
+      }
+    ]
+  },
+  {
+    "id": "mokpo",
+    "slug": "mokpo",
+    "category": "planning",
+    "featured": false,
+    "title": "Mokpo",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 990,
+        "h": 532
+      },
+      {
+        "src": "02.webp",
+        "w": 1096,
+        "h": 1441
+      },
+      {
+        "src": "03.webp",
+        "w": 605,
+        "h": 339
+      }
+    ]
+  },
+  {
+    "id": "bai-dai-cultural-and-ecotourism-park-planning",
+    "slug": "bai-dai-cultural-and-ecotourism-park-planning",
+    "category": "planning",
+    "featured": false,
+    "title": "Bãi Dài Cultural & Ecotourism Park",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1307,
+        "h": 909
+      },
+      {
+        "src": "02.webp",
+        "w": 724,
+        "h": 406
+      },
+      {
+        "src": "03.webp",
+        "w": 721,
+        "h": 406
+      },
+      {
+        "src": "04.webp",
+        "w": 1062,
+        "h": 739
+      },
+      {
+        "src": "05.webp",
+        "w": 1186,
+        "h": 666
+      },
+      {
+        "src": "06.webp",
+        "w": 1178,
+        "h": 660
+      },
+      {
+        "src": "07.webp",
+        "w": 1112,
+        "h": 623
+      }
+    ]
+  },
+  {
+    "id": "hai-duong-sea-eco-tourism-resort-planning",
+    "slug": "hai-duong-sea-eco-tourism-resort-planning",
+    "category": "planning",
+    "featured": false,
+    "title": "Hải Dương Sea Eco-Tourism Resort",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1195,
+        "h": 796
+      },
+      {
+        "src": "02.webp",
+        "w": 468,
+        "h": 468
+      },
+      {
+        "src": "03.webp",
+        "w": 468,
+        "h": 469
+      },
+      {
+        "src": "04.webp",
+        "w": 468,
+        "h": 469
+      }
+    ]
+  },
+  {
+    "id": "ham-nghi-luxury",
+    "slug": "ham-nghi-luxury",
+    "category": "planning",
+    "featured": false,
+    "title": "Hàm Nghi Luxury",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1240,
+        "h": 751
+      }
+    ]
+  },
+  {
+    "id": "ho-tram-kingston",
+    "slug": "ho-tram-kingston",
+    "category": "planning",
+    "featured": false,
+    "title": "Hồ Tràm Kingston",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1451,
+        "h": 679
+      },
+      {
+        "src": "02.webp",
+        "w": 1057,
+        "h": 594
+      },
+      {
+        "src": "03.webp",
+        "w": 609,
+        "h": 342
+      },
+      {
+        "src": "04.webp",
+        "w": 600,
+        "h": 372
+      }
+    ]
+  },
+  {
+    "id": "kodama",
+    "slug": "kodama",
+    "category": "planning",
+    "featured": false,
+    "title": "Kodama",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1149,
+        "h": 678
+      },
+      {
+        "src": "02.webp",
+        "w": 854,
+        "h": 596
+      },
+      {
+        "src": "03.webp",
+        "w": 854,
+        "h": 584
+      }
+    ]
+  },
+  {
+    "id": "ngoa-van-ho-thien-cultural-tourist-area",
+    "slug": "ngoa-van-ho-thien-cultural-tourist-area",
+    "category": "planning",
+    "featured": false,
+    "title": "Ngọa Vân – Hồ Thiên Cultural Tourist Area",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1216,
+        "h": 739
+      },
+      {
+        "src": "02.webp",
+        "w": 1030,
+        "h": 1533
+      }
+    ]
+  },
+  {
+    "id": "phieng-phat-hot-spring-resort",
+    "slug": "phieng-phat-hot-spring-resort",
+    "category": "planning",
+    "featured": false,
+    "title": "Phiêng Phát Hot Spring Resort",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1396,
+        "h": 785
+      },
+      {
+        "src": "02.webp",
+        "w": 657,
+        "h": 784
+      },
+      {
+        "src": "03.webp",
+        "w": 657,
+        "h": 657
+      },
+      {
+        "src": "04.webp",
+        "w": 1281,
+        "h": 719
+      },
+      {
+        "src": "05.webp",
+        "w": 685,
+        "h": 822
+      },
+      {
+        "src": "06.webp",
+        "w": 755,
+        "h": 764
+      }
+    ]
+  },
+  {
+    "id": "service-urban-area-planning-of-southern-chu-lai-airport",
+    "slug": "service-urban-area-planning-of-southern-chu-lai-airport",
+    "category": "planning",
+    "featured": false,
+    "title": "Service Urban Area – Southern Chu Lai Airport",
+    "location": "",
+    "year": "",
+    "client": "",
+    "area": "",
+    "role": "",
+    "summary": {
+      "vi": "",
+      "en": ""
+    },
+    "cover": 0,
+    "images": [
+      {
+        "src": "01.webp",
+        "w": 1166,
+        "h": 882
+      },
+      {
+        "src": "02.webp",
+        "w": 1043,
+        "h": 646
       }
     ]
   }
