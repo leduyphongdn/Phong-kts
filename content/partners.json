@@ -12,21 +12,24 @@
         "logo": "/img/partners/an-cuong.webp"
       },
       {
-        "name": "Formica"
+        "name": "Formica",
+        "logo": "/img/partners/formica.webp"
       },
       {
         "name": "TOTO",
         "logo": "/img/partners/toto.webp"
       },
       {
-        "name": "LIXIL"
+        "name": "LIXIL",
+        "logo": "/img/partners/lixil.webp"
       },
       {
         "name": "Vĩnh Tường",
         "logo": "/img/partners/vinh-tuong.webp"
       },
       {
-        "name": "Häfele"
+        "name": "Häfele",
+        "logo": "/img/partners/hafele.webp"
       },
       {
         "name": "Nippon Paint",
@@ -41,16 +44,19 @@
         "logo": "/img/partners/vietceramics.webp"
       },
       {
-        "name": "Taicera"
+        "name": "Taicera",
+        "logo": "/img/partners/taicera.webp"
       },
       {
         "name": "Everon"
       },
       {
-        "name": "INAX"
+        "name": "INAX",
+        "logo": "/img/partners/inax.webp"
       },
       {
-        "name": "GROHE"
+        "name": "GROHE",
+        "logo": "/img/partners/grohe.webp"
       }
     ]
   }
