@@ -9,6 +9,11 @@ const site = JSON.parse(fs.readFileSync("content/site.json", "utf8"));
 const projects = JSON.parse(fs.readFileSync("content/projects.json", "utf8"));
 const SITE_URL = (process.env.SITE_URL || site.siteUrl).replace(/\/$/, "");
 const V = Date.now().toString(36);
+// BASE_PATH: dùng khi site nằm trong thư mục con (vd GitHub Pages: /Phong-kts). Để trống nếu chạy ở gốc tên miền.
+const BASE = (process.env.BASE_PATH || "").replace(/\/$/, "");
+// thêm BASE vào mọi đường dẫn gốc "/img/...", "/du-an/...", href="/" ... (kể cả trong srcset)
+const ROOTS = /([\s"'(,])\/(?=#|(?:img|video|assets|du-an|en|projects|favicon\.svg|404\.html|sitemap\.xml)\b|["'])/g;
+const rebase = (html) => (BASE ? html.replace(ROOTS, (_, c) => c + BASE + "/") : html);
 const byId = Object.fromEntries(projects.map((p) => [p.id, p]));
 const profile = JSON.parse(fs.readFileSync("content/profile.json", "utf8"));
 const catKeys = Object.keys(site.categories).filter((c) => projects.some((p) => p.category === c));
@@ -29,7 +34,7 @@ const projUrl = (l, p) => `${L[l].prefix}/${L[l].work}/${p.slug}/`;
 function write(rel, html) {
   const f = path.join(DIST, rel);
   fs.mkdirSync(path.dirname(f), { recursive: true });
-  fs.writeFileSync(f, html);
+  fs.writeFileSync(f, rebase(html));
 }
 
 const icon = {
@@ -290,6 +295,11 @@ for (const l of ["vi", "en"]) {
   projects.forEach((p, i) => write(path.join(L[l].prefix, L[l].work, p.slug, "index.html"), detailPage(l, p, i)));
 }
 write("404.html", notFound());
+if (BASE) {
+  // app.js cũng cần biết đường dẫn gốc
+  const jsf = path.join(DIST, "assets/app.js");
+  fs.writeFileSync(jsf, fs.readFileSync(jsf, "utf8").replace('"/video/hero-4k.mp4"', '"' + BASE + '/video/hero-4k.mp4"'));
+}
 
 const urls = [];
 for (const l of ["vi", "en"]) {
