@@ -17,6 +17,7 @@ const ROOTS = /([\s"'(,])\/(?=#|(?:img|video|assets|du-an|en|projects|ja|favicon
 const rebase = (html) => (BASE ? html.replace(ROOTS, (_, c) => c + BASE + "/") : html);
 const byId = Object.fromEntries(projects.map((p) => [p.id, p]));
 const profile = JSON.parse(fs.readFileSync("content/profile.json", "utf8"));
+const partners = JSON.parse(fs.readFileSync("content/partners.json", "utf8"));
 const catKeys = Object.keys(site.categories).filter((c) => projects.some((p) => p.category === c));
 const HERO = "/img/hero.webp";
 const OG = "/img/og/home.jpg"; // ảnh khi chia sẻ link (JPEG 1200x630, tạo lúc build)
@@ -181,6 +182,11 @@ function homePage(l) {
       })
       .join("")}
   </div>
+</section>
+
+<section class="partners" id="partners" aria-labelledby="partners-title">
+  <div class="section-head reveal"><div><p class="kicker">${t.partnersKicker}</p><h2 id="partners-title">${t.partnersTitle}</h2><p class="lead sec-lead">${t.partnersLead}</p></div></div>
+  ${partners.map((g) => `<div class="partner-group reveal"><h3>${esc(g.title[l] || g.title.vi)}</h3><ul class="partner-grid">${g.items.map((it) => { const inner = it.logo ? `<img src="${esc(it.logo)}" alt="${esc(it.name)}" loading="lazy" decoding="async">` : `<span class="wordmark">${esc(it.name)}</span>`; return `<li>${it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener" aria-label="${esc(it.name)}">${inner}</a>` : `<div title="${esc(it.name)}">${inner}</div>`}</li>`; }).join("")}</ul></div>`).join("")}
 </section>
 
 <section class="about" id="about" aria-labelledby="about-title">

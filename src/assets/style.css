@@ -284,3 +284,19 @@ html[lang=ja] h1,html[lang=ja] h2,html[lang=ja] h3{letter-spacing:0;line-height:
 .brand-sep{width:1px;height:26px;background:var(--line);flex:none}
 .foot-logo{height:40px;width:auto;margin-bottom:14px;display:block}
 @media(max-width:640px){.brand{gap:10px;font-size:.78rem;letter-spacing:.22em}.brand-logo img{height:34px}.brand-sep{height:22px}}
+
+/* ---- đối tác & nhà cung cấp ---- */
+.partners{padding:clamp(60px,9vw,120px) var(--pad) clamp(30px,5vw,60px);max-width:1500px;margin:auto}
+.sec-lead{margin-top:14px}
+.partner-group+.partner-group{margin-top:clamp(36px,5vw,64px)}
+.partner-group h3{font:500 .74rem var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
+.partner-grid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.partner-grid li{border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.partner-grid a,.partner-grid li>div{display:flex;align-items:center;justify-content:center;min-height:104px;padding:18px;transition:background .35s,color .35s}
+.partner-grid a:hover{background:rgba(236,233,226,.05)}
+.wordmark{font:300 clamp(1.15rem,1.7vw,1.6rem)/1.2 var(--serif);letter-spacing:.06em;color:#bdb9b0;text-align:center;transition:color .3s}
+.partner-grid li:hover .wordmark{color:var(--fg)}
+.partner-grid img{max-height:44px;max-width:80%;width:auto;filter:grayscale(1) brightness(1.7) contrast(.9);opacity:.75;transition:opacity .3s,filter .3s}
+.partner-grid li:hover img{opacity:1;filter:none}
+@media(max-width:1000px){.partner-grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:700px){.partner-grid{grid-template-columns:repeat(2,1fr)}.partner-grid a,.partner-grid li>div{min-height:84px}}

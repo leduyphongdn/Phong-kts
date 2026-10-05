@@ -1,0 +1,51 @@
+[
+  {
+    "id": "suppliers",
+    "title": {
+      "vi": "Nhà cung cấp vật liệu & thiết bị",
+      "en": "Materials & equipment suppliers",
+      "ja": "材料・設備サプライヤー"
+    },
+    "items": [
+      {
+        "name": "An Cường"
+      },
+      {
+        "name": "Formica"
+      },
+      {
+        "name": "TOTO"
+      },
+      {
+        "name": "LIXIL"
+      },
+      {
+        "name": "Vĩnh Tường"
+      },
+      {
+        "name": "Häfele"
+      },
+      {
+        "name": "Nippon Paint"
+      },
+      {
+        "name": "Kansai Paint"
+      },
+      {
+        "name": "Vietceramics"
+      },
+      {
+        "name": "Taicera"
+      },
+      {
+        "name": "Everon"
+      },
+      {
+        "name": "INAX"
+      },
+      {
+        "name": "GROHE"
+      }
+    ]
+  }
+]
