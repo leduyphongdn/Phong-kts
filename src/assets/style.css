@@ -58,7 +58,7 @@ h1 em,h2 em{font-style:italic;color:var(--accent)}
 .hero-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,12,.6) 0%,rgba(11,11,12,.18) 30%,rgba(11,11,12,.5) 58%,rgba(11,11,12,.95) 100%),linear-gradient(90deg,rgba(11,11,12,.55),transparent 65%)}
 .hero h1,.proj-hero h1{text-shadow:0 2px 40px rgba(0,0,0,.45)}
 .hero-inner{position:relative;padding:0 var(--pad) clamp(72px,12vh,140px);max-width:1200px}
-.hero h1{font-size:clamp(2.8rem,8vw,7rem);margin-bottom:38px;max-width:14ch}
+.hero h1{font-size:clamp(2.4rem,6.4vw,6rem);margin-bottom:38px;max-width:none;text-wrap:balance}
 .scroll-cue{position:absolute;right:var(--pad);bottom:34px;display:flex;flex-direction:column;align-items:center;gap:12px;font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;writing-mode:vertical-rl}
 .scroll-cue span{width:1px;height:56px;background:linear-gradient(var(--fg),transparent);animation:cue 2.2s infinite}
 @keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
@@ -273,3 +273,7 @@ html[lang=ja]{--serif:"Cormorant Garamond","Noto Serif JP","Yu Mincho",serif;--s
 html[lang=ja] body{line-height:1.9}
 html[lang=ja] .kicker,html[lang=ja] .btn,html[lang=ja] .link-arrow,html[lang=ja] .nav,html[lang=ja] .chip{letter-spacing:.08em}
 html[lang=ja] h1,html[lang=ja] h2,html[lang=ja] h3{letter-spacing:0;line-height:1.25;font-weight:400}
+
+.hero h1 em{display:inline-block;max-width:100%}
+.hero .kicker{font-size:.78rem;margin-bottom:22px}
+.hero-inner{max-width:1300px}

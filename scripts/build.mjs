@@ -138,7 +138,7 @@ function homePage(l) {
   <div class="slides"><video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="/video/hero.mp4" type="video/mp4"></video></div>
   <div class="hero-shade"></div>
   <div class="hero-inner">
-    <p class="kicker">${t.heroKicker}</p><p class="kana" lang="ja">${esc(site.kana)}</p>
+    <p class="kicker">${t.heroKicker}</p>
     <h1>${t.heroTitle}</h1>
     <a class="btn" href="${workUrl(l)}">${t.heroCta} ${icon.arrow}</a>
   </div>
