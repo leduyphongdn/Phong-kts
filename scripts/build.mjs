@@ -2,6 +2,7 @@
 // Chạy: npm run build
 import fs from "node:fs";
 import path from "node:path";
+import sharp from "sharp";
 
 const root = path.resolve(".");
 const DIST = path.join(root, "dist");
@@ -18,6 +19,8 @@ const byId = Object.fromEntries(projects.map((p) => [p.id, p]));
 const profile = JSON.parse(fs.readFileSync("content/profile.json", "utf8"));
 const catKeys = Object.keys(site.categories).filter((c) => projects.some((p) => p.category === c));
 const HERO = "/img/hero.webp";
+const OG = "/img/og/home.jpg"; // ảnh khi chia sẻ link (JPEG 1200x630, tạo lúc build)
+const ogOf = (p) => `/img/og/${p.slug}.jpg`;
 
 const esc = (s = "") => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const img = (p, i, big = false) => `/img/projects/${p.slug}/${p.images[i].src.replace(".webp", big ? ".webp" : "-s.webp")}`;
@@ -49,7 +52,7 @@ const icon = {
 
 function layout({ l, t, title, desc, path: urlPath, alts, ogImage, body, bodyClass = "", jsonld = "" }) {
   const canonical = SITE_URL + urlPath;
-  const og = SITE_URL + (ogImage || HERO);
+  const og = SITE_URL + (ogImage || OG);
   return `<!doctype html>
 <html lang="${t.htmlLang}">
 <head>
@@ -70,7 +73,12 @@ ${LANGS.map((x) => `<link rel="alternate" hreflang="${x}" href="${SITE_URL}${alt
 <meta property="og:description" content="${esc(desc)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${og}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(title)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${og}">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -217,7 +225,7 @@ function homePage(l) {
     knowsAbout: ["Architecture", "Onsen", "Resort design", "Interior design", "Landscape", "Masterplanning"],
     sameAs: site.sameAs || [],
   };
-  const org = { "@type": "ProfessionalService", name: site.brand, url: SITE_URL + "/", telephone: site.phone, email: site.email, address: addr, image: SITE_URL + HERO, founder: { "@id": SITE_URL + "/#person" } };
+  const org = { "@type": "ProfessionalService", name: site.brand, url: SITE_URL + "/", telephone: site.phone, email: site.email, address: addr, image: SITE_URL + OG, founder: { "@id": SITE_URL + "/#person" } };
   const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@graph": [person, org] })}</script>`;
   return layout({ l, t, title: t.titleHome, desc: t.metaHome, path: homeUrl(l), alts: alts(homeUrl), body, bodyClass: "home", jsonld: ld });
 }
@@ -237,7 +245,7 @@ function workPage(l) {
 <section class="grid-wrap"><div class="work-grid" id="work-grid">
   ${projects.map((p) => projectCard(p, l, t)).join("\n")}
 </div></section>`;
-  return layout({ l, t, title: `${t.projectsTitle} – ${site.brand}`, desc: t.metaProjects, path: workUrl(l), alts: alts(workUrl), body, bodyClass: "work", ogImage: HERO });
+  return layout({ l, t, title: `${t.projectsTitle} – ${site.brand}`, desc: t.metaProjects, path: workUrl(l), alts: alts(workUrl), body, bodyClass: "work" });
 }
 
 function detailPage(l, p, idx) {
@@ -294,7 +302,7 @@ ${gallery}
     image: SITE_URL + img(p, p.cover, true),
   })}</script>`;
   const desc = summary || `${p.title} – ${catName(p.category, l)}. ${site.brand}.`;
-  return layout({ l, t, title: `${p.title} – ${site.brand}`, desc, path: projUrl(l, p), alts: alts((x) => projUrl(x, p)), body, bodyClass: "detail", ogImage: img(p, p.cover, true), jsonld: ld });
+  return layout({ l, t, title: `${p.title} – ${site.brand}`, desc, path: projUrl(l, p), alts: alts((x) => projUrl(x, p)), body, bodyClass: "detail", ogImage: ogOf(p), jsonld: ld });
 }
 
 function notFound() {
@@ -308,6 +316,12 @@ fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
 fs.cpSync("public", DIST, { recursive: true });
 fs.cpSync("src/assets", path.join(DIST, "assets"), { recursive: true });
+
+// ảnh chia sẻ link (Facebook, Zalo, iMessage...): JPEG 1200x630
+fs.mkdirSync(path.join(DIST, "img/og"), { recursive: true });
+const ogJpg = (src, out) => sharp(src).resize(1200, 630, { fit: "cover", position: "attention" }).jpeg({ quality: 84, mozjpeg: true }).toFile(path.join(DIST, "img/og", out));
+await ogJpg("public/img/og-source.webp", "home.jpg");
+for (const p of projects) await ogJpg(path.join("public/img/projects", p.slug, p.images[p.cover].src), `${p.slug}.jpg`);
 
 for (const l of LANGS) {
   write(path.join(L[l].prefix, "index.html"), homePage(l));
